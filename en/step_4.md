@@ -80,15 +80,14 @@ Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to
 
 --- /task ---
 
---- collapse ---
+--- task ---
 
----
-title: How to log each mood for your user
----
+You can also log your user's mood.
 
 [[[microbit-datalogging]]]
 
---- /collapse ---
+--- /task ---
+
 
 ### Test your program
 
