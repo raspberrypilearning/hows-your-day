@@ -79,3 +79,28 @@ Add more responses to your `on button`{:class='microbitinput'} block for the oth
 Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to add `else if`{:class='microbitlogic'} blocks.
 
 --- /task ---
+
+--- collapse ---
+
+---
+title: How to log each mood for your user
+---
+
+[[[microbit-datalogging]]]
+
+--- /collapse ---
+
+### Test your program
+
+--- task ---
+
+Test your program. 
+
+When the simulator restarts, use a gesture to choose your mood.
+
+Press the `Button A+B` to check the responses for each mood you choose.
+
+
+
+--- /task ---
+
