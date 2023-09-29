@@ -79,6 +79,12 @@ Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='micro
 
 You could show an **icon**, make an **animation** or display a **string**.
 
+For instance it could show the heart logo.
+
+```microbit
+basic.showIcon(IconNames.Heart)
+```
+
 [[[microbit-icons]]]
 
 [[[microbit-animation]]]
