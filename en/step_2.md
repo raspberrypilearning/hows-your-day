@@ -159,9 +159,11 @@ At the variable to the top of your `gesture`{:class='microbitinput'} block,
 
 Here is an example of the code blocks you could use:
 
+```microbit
 input.onGesture(Gesture.Shake, function () {
     mood = "Okay day"
 })
+```
 
 --- /task ---
 
