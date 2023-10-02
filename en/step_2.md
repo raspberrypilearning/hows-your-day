@@ -82,7 +82,7 @@ You could show an **icon**, make an **animation** or display a **string**.
 For instance it could show the heart logo.
 
 ```microbit
-basic.showIcon(IconNames.Heart)
+basic.showString("How's your day?")
 ```
 
 [[[microbit-icons]]]
@@ -157,6 +157,12 @@ At the variable to the top of your `gesture`{:class='microbitinput'} block,
 
 `set`{:class='microbitvariables'} your `mood`{:class='microbitvariables'} variable to the corresponding mood. 
 
+Here is an example of the code blocks you could use:
+
+input.onGesture(Gesture.Shake, function () {
+    mood = "Okay day"
+})
+
 --- /task ---
 
 --- task ---
@@ -176,6 +182,21 @@ You could show an **icon** or an **animation** to represent each mood.
 [[[microbit-icons]]]
 
 [[[microbit-animation]]]
+
+Your event should now look something like this (the exact blocks could look different):
+
+```microbit
+input.onGesture(Gesture.TiltRight, function () {
+    mood = "Bad day"
+    basic.showLeds(`
+        # # . # #
+        . . . . .
+        . . # . .
+        . # # # .
+        # . . . #
+        `)
+})
+```
 
 --- /task ---
 

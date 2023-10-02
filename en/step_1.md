@@ -7,19 +7,22 @@ You will:
 + Create responses for the mood
 + Test and debug your code
 
-<mark>Need to figure out how to do it</mark>
-![Examples of projects.](images/surprise-example.png)
-
 --- no-print ---
+
+### Get ideas 💭   
+
+Test these example projects to get ideas. Think about what activity you like to do most:
+
+⭐ Share your finished Active assistant project for a chance of it being featured here.
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Play ▶️ 
+### Karaoke machine
 
-Press the `A` button to the left to restart the simulator!
+Click the micro:bit logo at the top to restart the simulator!
 
 This is a **karaoke mood checker** - for people who like singing! 
 
@@ -35,26 +38,45 @@ The program has three modes:
 
 </div>
 <div>
-**Karaoke mood checker!**: [See inside](https://makecode.microbit.org/_FJjbJ5VjWLEg){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_FJjbJ5VjWLEg" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+[👀 See the code 👀](https://makecode.microbit.org/S44727-82649-75784-15537){:target="_blank"}
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=S44727-82649-75784-15537" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
 
---- /task ---   
-
-### Get ideas 💭   
+--- /task ---  
 
 --- task ---
 
-Test these example projects to get ideas. Think about what activity you like to do most:
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1">  
 
-⭐ Share your finished How's your day? project for a chance of it being featured here.
+### Sample project 
 
-<mark>Need to add these when done</mark>
+Insert sample here
 
-**EXAMPLES**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=S44727-82649-75784-15537" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+List of samples
+
+</div>
+<div>
+[👀 See the code 👀](https://makecode.microbit.org/_R5aR8aFjDYzT){:target="_blank"}
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_R5aR8aFjDYzT" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+</div>
 
 --- /task ---
 
 --- /no-print ---
+
+--- print-only ---
+
+### Get inspiration 
+
+You will make design decisions think of a way to help you or someone else complete their favourite type of activity! 
+
+Your program will need: 
++ A start up animation & instructions
++ Events and gestures to use during the activity
++ Activities for your users depending on their mood
+
+<mark>one image file per example</mark>
+
+--- /print-only ---
