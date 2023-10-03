@@ -1,10 +1,8 @@
-## Reflection
+## Quick quiz
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Answer the three questions below to reflect on what you've learned.
-
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**. 
 
 Have fun!
 
@@ -14,31 +12,40 @@ Have fun!
 legend: Question 1 of 3
 ---
 
+In your project you created a screen to greet your user, which event block did you use to display it?
 
 --- choices ---
 
-- ( )
+- (x)
+
+`on start`{:class='microbitbasic'}
 
   --- feedback ---
-
+Yes, this is the event that runs at the beginning of your program!
   --- /feedback ---
 
 - ( )
 
-  --- feedback ---
+`forever`{:class='microbitbasic'}
 
+  --- feedback ---
+The `forever`{:class='microbitbasic'} block is a **loop** that constantly repeats while your program is running, if you put something in here it will be shown again and again.
   --- /feedback ---
 
 - (x) 
 
-  --- feedback ---
+`on button A pressed`{:class='microbitinput'}
 
+  --- feedback ---
+This event only happens when the user presses Button A, no automatically when you run the program.
   --- /feedback ---
 
 - ( ) 
 
-  --- feedback ---
+`on shake`{:class='microbitinput'}
 
+  --- feedback ---
+Shake is a gesture, and this event would only happen when the user shakes the microbit, not automatically at the beginning of the program.
   --- /feedback ---
 
 --- /choices ---

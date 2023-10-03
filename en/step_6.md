@@ -1,8 +1,8 @@
-## Step title
+## Upgrade your project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+You could upgrade your project by adding more moods for the day using gestures, adding more responses for new moods or using selection so a mood has more than one repsonse!
 </div>
 <div>
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
@@ -11,18 +11,22 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 --- task ---
 
-Another step of tasks to complete.
+Try adding more to your start-up screen. You can add more animations or maybe a countdown timer?
+
+[[[microbit-icons]]]
+
+[[[microbit-animation]]]
+
+[[[microbit-text]]]
+
+[[[microbit-timer]]]
 
 --- /task ---
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+You can also allow the user to make some choices about the functionality of the assistent. 
+
+[[[microbit-making-choices]]]
 
 --- /task ---
-
---- save ---

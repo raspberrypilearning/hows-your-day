@@ -18,6 +18,8 @@ For a better user experience, add a `pause`{:class='microbitbasic'} block betwee
 
 --- /task ---
 
+--- task ---
+
 ### Using events
 
 --- collapse ---
@@ -76,14 +78,25 @@ Place it inside the `0` to the right on the `0 = 0`{:class='microbitlogic'} bloc
 
 Type in the matching mood for `Having a good day`
 
+Your blocks of code could look like this:
+
+```microbit
+input.onButtonPressed(Button.AB, function () {
+    if (mood == "Good day") {
+    	
+    }
+})
+```
+
 --- /task ---
 
 --- task ---
 Add a response block inside the `if`{:class='microbitlogic'} block to test your program so far.
 
-You can show an icon or play some music.
+You can show an icon or an animation or play some music.
 
 [[[microbit-icons]]]
+[[[microbit-animation]]]
 [[[microbit-playing-sounds]]]
 
 --- /task ---
@@ -96,6 +109,6 @@ Test your program.
 
 When the simulator restarts, use a gesture to choose your mood.
 
-Press the `Button A+B` to check for the response activity you created in the first `if`{:class='microbitlogic'} block.
+Press the `Button A+B` to show the user the response activity you created in the first `if`{:class='microbitlogic'} block.
 
 --- /task ---

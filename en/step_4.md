@@ -60,6 +60,22 @@ Here are some reminders of things you have already done in the Explore projects 
 
 Have a look over the projects you have made throughout the path for inspiration for your responses.
 
+Here is an example of responses you can add:
+
+```microbit
+input.onGesture(Gesture.TiltRight, function () {
+    mood = "Bad day"
+    basic.showLeds(`
+        # # . # #
+        . . . . .
+        . . # . .
+        . # # # .
+        # . . . #
+        `)
+    basic.pause(100)
+    basic.showString("Press A+B")
+})
+```
 --- /task ---
 
 --- task ---
@@ -77,6 +93,8 @@ Place it inside the `if`{:class='microbitlogic'} block in the `on button`{:class
 Add more responses to your `on button`{:class='microbitinput'} block for the other mood options.
 
 Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to add `else if`{:class='microbitlogic'} blocks.
+
+[[[microbit-selection]]]
 
 --- /task ---
 
