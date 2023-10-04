@@ -65,18 +65,3 @@ List of samples
 --- /task ---
 
 --- /no-print ---
-
---- print-only ---
-
-### Get inspiration 
-
-You will make design decisions think of a way to help you or someone else complete their favourite type of activity! 
-
-Your program will need: 
-+ A start up animation & instructions
-+ Events and gestures to use during the activity
-+ Activities for your users depending on their mood
-
-<mark>one image file per example</mark>
-
---- /print-only ---

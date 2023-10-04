@@ -77,7 +77,7 @@ You should make this in the `on start`{:class='microbitbasic'} block of your new
 
 Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='microbitbasic'} block that your user will see when the program starts.
 
-You could show an **icon**, make an **animation** or display a **string**.
+You could show an **icon**, make an **animation** or display **text**.
 
 For instance it could show the heart logo.
 
@@ -115,7 +115,7 @@ You can use input gestures to help the user choose their mood.
 
 Add instructions (using the `show string`{:class='microbitbasic'}) to the `on start`{:class='microbitbasic'} block.
 
-This will help the user knows what gestures to use.
+This will help the user know what gestures to use.
 
 [[[microbit-text]]]
 

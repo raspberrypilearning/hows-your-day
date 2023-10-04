@@ -80,7 +80,7 @@ input.onGesture(Gesture.TiltRight, function () {
 
 --- task ---
 
-From the `Advanced `section of the Toolbox, drag out a `call`{:class='microbitfunctions'} block from the `Functions`{:class='microbitfunctions'} menu.
+From the `Advanced` section of the Toolbox, drag out a `call`{:class='microbitfunctions'} block from the `Functions`{:class='microbitfunctions'} menu.
 
 Place it inside the `if`{:class='microbitlogic'} block in the `on button`{:class='microbitinput'} block.
 

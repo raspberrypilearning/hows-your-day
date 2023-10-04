@@ -58,7 +58,7 @@ Place it inside the event `on button`{:class='microbitinput'} block.
 
 Open the `Logic`{:class='microbitlogic'} menu and grab the `0 = 0`{:class='microbitlogic'} block. 
 
-Place it inside the `if`{:class='microbitlogic'} statement.
+Place it inside the `true`{:class='microbitlogic'} part of the `if`{:class='microbitlogic'} statement.
 
 --- /task ---
 
@@ -72,7 +72,7 @@ Place it inside the `0` to the left on the `0 = 0`{:class='microbitlogic'} block
 
 --- task ---
 
-From the `Advanced `section of the Toolbox, drag out an empty text block from the `Text`{:class='microbittext'} menu.
+From the `Advanced` section of the Toolbox, drag out an empty text block from the `Text`{:class='microbittext'} menu.
 
 Place it inside the `0` to the right on the `0 = 0`{:class='microbitlogic'} block.
 
