@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Introduction to micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro) path, you can move on to the [Active assitant!](https://projects.raspberrypi.org/en/projects/active-assistant) project. In this project, you will make a a version of your favourite party game to play with your friends and family.
+If you are following the [Introduction to micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro) path, you can move on to the [Active assistant!](https://projects.raspberrypi.org/en/projects/active-assistant) project. In this project, you will make a a version of your favourite party game to play with your friends and family.
 
 --- print-only ---
 

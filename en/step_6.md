@@ -30,3 +30,5 @@ You can also allow the user to make some choices about the functionality of the 
 [[[microbit-making-choices]]]
 
 --- /task ---
+
+[[[download-to-microbit]]]

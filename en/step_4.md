@@ -106,7 +106,6 @@ You can also log your user's mood.
 
 --- /task ---
 
-
 ### Test your program
 
 --- task ---
@@ -118,6 +117,8 @@ When the simulator restarts, use a gesture to choose your mood.
 Press the `Button A+B` to check the responses for each mood you choose.
 
 
-
 --- /task ---
 
+[[[download-to-microbit]]]
+
+Next, it is time to check what you have learnt!
