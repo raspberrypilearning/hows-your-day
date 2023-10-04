@@ -10,7 +10,7 @@ Delete the existing response you placed inside the `if`{:class='microbitlogic'} 
 
 For each mood, create a function for each response activity that will be shown to your user. 
 
-You could create three functions for the three mooods the user can choose from.
+You could create three functions for the three moods the user can choose from.
 
 [[[microbit-function]]]
 

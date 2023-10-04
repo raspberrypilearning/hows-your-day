@@ -6,7 +6,7 @@ You will now need to provide a response (and log the mood) using an event.
 
 In your `gesture`{:class='microbitinput'} block, add an instruction to tell the user to press the A+B button.
 
-This will lbegin the response activity and log their mood (optional).
+This will begin the response activity and log their mood (optional).
 
 [[[microbit-text]]]
 
