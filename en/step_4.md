@@ -4,11 +4,11 @@ For any mood your user has chosen, you can show them something or give them an a
 
 --- task ---
 
-Add more responses to your `on button`{:class='microbitinput'} block for the other mood options.
+Add more responses to your `on button`{:class='microbitinput'} block for the other response options.
 
 Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to add `else if`{:class='microbitlogic'} blocks.
 
-[[[microbit-selection]]]
+[[[microbit-making-choices]]]
 
 --- /task ---
 
@@ -16,7 +16,7 @@ Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to
 
 Use your micro:bit skills to create more responses. 
 
-Add them inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks.
+Add them inside the `else if`{:class='microbitlogic'} blocks.
 
 Here are some reminders of things you have already done in the Explore projects that you might want to use.
 
@@ -30,21 +30,19 @@ Here are some reminders of things you have already done in the Explore projects 
 
 [[[microbit-plot-graph]]]
 
-#### Using animation & sounds
-
-[[[microbit-timer]]]
-
-[[[microbit-counting]]]
-
-[[[microbit-animation]]]
-
-[[[microbit-making-choices]]]
+#### Using sounds
 
 [[[microbit-playing-sounds]]]
 
 [[[microbit-mic]]]
 
 [[[microbit-volume]]]
+
+#### Other
+
+[[[microbit-timer]]]
+
+[[[microbit-counting]]]
 
 Have a look over the projects you have made throughout the path for inspiration for your responses.
 
@@ -63,7 +61,6 @@ input.onButtonPressed(Button.A, function () {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Funk), music.PlaybackMode.InBackground)
     }
 })
-
 ```
 --- /task ---
 
@@ -72,11 +69,11 @@ input.onButtonPressed(Button.A, function () {
 
 For each response, you can create a function for the activity that will be shown to your user. 
 
-This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} block.
+This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} block.
 
 You could create three functions for the three responses your user is shown.
 
--- task ---
+--- task ---
 
 [[[microbit-function]]]
 
@@ -121,8 +118,9 @@ From the `Advanced` section of the Toolbox, drag out your `call`{:class='microbi
 
 Ensure you use the correct response call block.
 
-Place it inside the `if`{:class='microbitlogic'} block in your event{:class='microbitinput'} block.
+Place it inside the `if`{:class='microbitlogic'} block in your event block.
 
+```microbit
 input.onButtonPressed(Button.A, function () {
     if (mood == 1) {
         goodDay()
@@ -132,6 +130,7 @@ input.onButtonPressed(Button.A, function () {
         badDay()
     }
 })
+```
 
 Repeat this step for your `else if`{:class='microbitlogic'} blocks.
 
