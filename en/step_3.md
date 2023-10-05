@@ -33,15 +33,17 @@ For example in the karaoke mood checker, gestures were used to choose from a ran
 
 #### Events
 
-[[[microbit-button]]]
+[[[microbit-buttons]]]
 
-Add the block you need into your Workspace.
+Add any event block of your choice into your Workspace.
+
+For example, in Mood animator, the `on logo pressed`{:class='microbitinput'} block is used.
 
 --- /task ---
 
-### Add in some Logic
+### Create a response
 
-Now you have told your user to press the `Button A+B`, you need to program what happens when they do.
+Now you have chosen an event block, you need to program a response inside it.
 
 --- task ---
 
