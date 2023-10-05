@@ -54,19 +54,19 @@ The program has three modes:
 
 Watch the start up instructions, which tell you to use a tilt of shake gesture to match the mood shown on the LEDs:
 
-- Tilt the micro:bit right to select a ‘Good’ mood (shown by a smiley face 🙂)
-- Tilt the micro:bit left to select an ‘OK’ mood (shown by a neutral face 😐)
-- Shake the micro:bit to select an ‘Not good’ mood (shown by a frown face 🙁)
+- Tilt the micro:bit **right** to select a ‘Good’ mood, shown by a smiley face 🙂
+- Tilt the micro:bit **left** to select an ‘OK’ mood, shown by a neutral face 😐
+- **Shake** the micro:bit to select an ‘Not good’ mood, shown by a frowning face 🙁
 
-When you have chosen your mood with your tilt or shake gesture, you will see a ^ shown on the LEDs. 
+When you have chosen your mood with your tilt or shake gesture, you will see an up arrow **^** shown on the LEDs. 
 
 This means you should press the touch logo to set your mood.
 
-You will then be shown an animation response to match your mood:
+This will display an animation response to match your mood:
 
 - A celebration dance to celebrate a 'Good' mood
 - An encouragement to smile in response to an 'OK' mood
-- A breathing animation to celebrate a 'Not good' mood
+- A breathing animation to celebrate a 'Not good' mood.
 
 </div>
 <div>
