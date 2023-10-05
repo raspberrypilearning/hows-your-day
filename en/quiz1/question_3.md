@@ -21,7 +21,7 @@ The gesture blocks from the `Input`{:class='microbitinput'} menu were used to ch
 Functions
 
   --- feedback ---
-Well done! `Functions`{:class='microbitfunctions'} were used to tidy up your code.
+Well done! `Functions`{:class='microbitfunctions'} were used to tidy up your code and complete a specific task.
   --- /feedback ---
 
 - (x) 
