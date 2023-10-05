@@ -5,7 +5,7 @@ You will now need to provide a response using an event.
 
 --- task ---
 
-In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to choose their mood.
+In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to set their mood.
 
 [[[microbit-text]]]
 
