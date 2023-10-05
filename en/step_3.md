@@ -1,9 +1,9 @@
-## Set the mood
+## Create a response
+
+### Set your mood
 
 Well done, you have created the moods for your user to choose from.
 You will now need to use an event to trigger a response.
-
-### Using events
 
 --- collapse ---
 
@@ -21,7 +21,7 @@ For example in the karaoke mood checker, gestures were used to choose from a ran
 --- task ---
 
 
-#### Events
+#### Using Events
 
 Add any event block of your choice into your Workspace.
 
@@ -31,7 +31,7 @@ For example, in Mood animator, the `on logo pressed`{:class='microbitinput'} blo
 
 --- /task ---
 
-### Create a response
+### Create your first response
 
 Now you have chosen an event block, you need to program a response inside it.
 
