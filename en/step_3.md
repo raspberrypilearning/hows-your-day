@@ -1,9 +1,9 @@
 ## Create a response
 
-### Set your mood
-
 Well done, you have created the moods for your user to choose from.
 You will now need to use an event to trigger a response.
+
+### Set your mood
 
 --- collapse ---
 

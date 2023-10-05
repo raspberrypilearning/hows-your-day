@@ -1,24 +1,22 @@
 ## Create more responses
 
-For any mood your user has chosen, you can show  them something or give them an activity to do.
+For any mood your user has chosen, you can show them something or give them an activity to do.
 
 --- task ---
 
-For each mood, create a function for each response activity that will be shown to your user. 
+Add more responses to your `on button`{:class='microbitinput'} block for the other mood options.
 
-You could create three functions for the three moods the user can choose from.
+Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to add `else if`{:class='microbitlogic'} blocks.
 
-[[[microbit-function]]]
+[[[microbit-selection]]]
 
 --- /task ---
 
-### Program your response function. 
-
-The things you need to put inside your function will depend on what type of response you want to show to the user. 
-
 --- task ---
 
-Use your micro:bit skills to create your responses. 
+Use your micro:bit skills to create more responses. 
+
+Add them inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks.
 
 Here are some reminders of things you have already done in the Explore projects that you might want to use.
 
@@ -32,13 +30,7 @@ Here are some reminders of things you have already done in the Explore projects 
 
 [[[microbit-plot-graph]]]
 
-#### Using sensors
-
-[[[microbit-mic]]]
-
-[[[microbit-fine-movement]]]
-
-#### Doing cool stuff
+#### Using animation & sounds
 
 [[[microbit-timer]]]
 
@@ -59,46 +51,89 @@ Have a look over the projects you have made throughout the path for inspiration 
 Here is an example of responses you can add:
 
 ```microbit
-input.onGesture(Gesture.TiltRight, function () {
-    mood = "Bad day"
-    basic.showLeds(`
-        # # . # #
-        . . . . .
-        . . # . .
-        . # # # .
-        # . . . #
-        `)
-    basic.pause(100)
-    basic.showString("Press A+B")
+input.onButtonPressed(Button.A, function () {
+    if (mood == 1) {
+        basic.showString("Sing!")
+        music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+    } else if (mood == 2) {
+        basic.showString("Dance!")
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+    } else {
+        basic.showString("Move!")
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Funk), music.PlaybackMode.InBackground)
+    }
 })
+
 ```
 --- /task ---
 
---- task ---
 
-From the `Advanced` section of the Toolbox, drag out a `call`{:class='microbitfunctions'} block from the `Functions`{:class='microbitfunctions'} menu.
+### Using functions to organise your responses
 
-Place it inside the `if`{:class='microbitlogic'} block in the `on button`{:class='microbitinput'} block.
+For each response, you can create a function for the activity that will be shown to your user. 
 
---- /task ---
+This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} block.
 
-### Create more responses
+You could create three functions for the three responses your user is shown.
 
---- task ---
+-- task ---
 
-Add more responses to your `on button`{:class='microbitinput'} block for the other mood options.
-
-Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to add `else if`{:class='microbitlogic'} blocks.
-
-[[[microbit-selection]]]
+[[[microbit-function]]]
 
 --- /task ---
 
 --- task ---
 
-You can also log your user's mood.
+Drag your response blocks into your newly created function blocks. 
 
-[[[microbit-datalogging]]]
+Here is an example code from a function block:
+
+```microbit
+function goodDay () {
+    basic.clearScreen()
+    basic.showString("Sing along!")
+    basic.pause(100)
+    music.play(music.createSoundExpression(
+    WaveShape.Noise,
+    500,
+    499,
+    255,
+    0,
+    3307,
+    SoundExpressionEffect.None,
+    InterpolationCurve.Linear
+    ), music.PlaybackMode.UntilDone)
+    if (input.soundLevel() > 128) {
+        datalogger.log(datalogger.createCV("Sound Level", input.soundLevel()))
+    } else {
+        basic.showString("Sing louder!")
+    }
+}
+```
+
+--- /task ---
+
+You will need to call your function inside your event block to use it.
+
+--- task ---
+
+From the `Advanced` section of the Toolbox, drag out your `call`{:class='microbitfunctions'} block from the `Functions`{:class='microbitfunctions'} menu.
+
+Ensure you use the correct response call block.
+
+Place it inside the `if`{:class='microbitlogic'} block in your event{:class='microbitinput'} block.
+
+input.onButtonPressed(Button.A, function () {
+    if (mood == 1) {
+        goodDay()
+    } else if (mood == 2) {
+        okayDay()
+    } else {
+        badDay()
+    }
+})
+
+Repeat this step for your `else if`{:class='microbitlogic'} blocks.
 
 --- /task ---
 
@@ -106,11 +141,9 @@ You can also log your user's mood.
 
 --- task ---
 
-Test your program. 
-
 When the simulator restarts, use a gesture to choose your mood.
 
-Press the `Button A+B` to check the responses for each mood you choose.
+Use your event to trigger your responses.
 
 
 --- /task ---
