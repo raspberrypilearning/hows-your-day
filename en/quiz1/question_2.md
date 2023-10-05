@@ -1,26 +1,29 @@
 
+
+
+
 --- question ---
 
 ---
 legend: Question 2 of 3
 ---
 
-You made Pico say hello in a speech bubble.
+In your project you used `Gestures`{:class='microbitinput'}, to allow the user to choose their mood. 
 
-```blocks3
-say [Hello!] for [2] secs
-```
-
-Where would you go to find this block?
+Which of these code blocks would allow a user to choose their mood.
 
 --- choices ---
 
 - (x) 
 
-  --- feedback ---
-
-  --- /feedback ---
-
+```microbit
+input.onGesture(Gesture.TiltLeft, function () {
+    mood = 1
+    basic.showIcon(IconNames.Happy)
+    basic.pause(500)
+    basic.showString("^")
+})
+```
 - ( ) 
 
   --- feedback ---

@@ -12,19 +12,3 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
---- task ---
-
-Try adding more to your start-up screen. You can add more animations or maybe a countdown timer?
-
-[[[microbit-icons]]]
-
-[[[microbit-animation]]]
-
-[[[microbit-text]]]
-
-[[[microbit-timer]]]
-
---- /task ---
-
-
-[[[download-to-microbit]]]
