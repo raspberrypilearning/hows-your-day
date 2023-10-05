@@ -52,14 +52,20 @@ The program has three modes:
 
 ### Mood animator 
 
-Insert sample here
+Watch the start up instructions, which tell you to use a tilt of shake gesture to match the mood shown on the LEDs.
 
-List of samples
+- Tilt the micro:bit right to select a ‘Good’ mood (shown by a smiley face :smiley: )
+- Tilt the micro:bit left to select an ‘OK’ mood (shown by a neutral face :neutral_face: )
+- Shake the micro:bit to select an ‘Not good’ mood (shown by a frown face :white_frowning_face: )
+
+When you have chosen your mood with your gesture, you will see a ^ shown on the LEDs. Set your mood by pressing the touch logo.
+
+You will then be shown an animation response to match your mood.
 
 </div>
 <div>
-[👀 See the code 👀](https://makecode.microbit.org/_R5aR8aFjDYzT){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_R5aR8aFjDYzT" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+[👀 See the code 👀](https://makecode.microbit.org/_iy5ghqMTE7ah){:target="_blank"}
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iy5ghqMTE7ah" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
 --- /task ---
