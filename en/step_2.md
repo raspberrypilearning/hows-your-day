@@ -204,7 +204,6 @@ input.onGesture(Gesture.Shake, function () {
         . # # # .
         . # # # .
         `)
-    basic.pause(100)
 })
 ```
 
@@ -214,6 +213,30 @@ input.onGesture(Gesture.Shake, function () {
 
 Repeat these steps twice so you have blocks in each gesture.
 
+--- /task ---
+
+--- task ---
+
+In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to set their mood.
+
+[[[microbit-text]]]
+
+For a better user experience, add a `pause`{:class='microbitbasic'} block between the mood icon and the instruction block.
+
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    mood = 1
+    basic.showLeds(`
+        # # . # #
+        . . . . .
+        . . # . #
+        . # # # .
+        . # # # .
+        `)
+    basic.pause(100)
+    basic.showString("Press A")
+})
+```
 --- /task ---
 
 ### Test your program

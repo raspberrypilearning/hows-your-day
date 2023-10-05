@@ -1,4 +1,4 @@
-## Create your responses
+## Create more responses
 
 For any mood chosen, you can then give them a response activity or show them a response.
 

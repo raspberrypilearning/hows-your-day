@@ -3,16 +3,6 @@
 Well done, you have created the moods for your user to choose from.
 You will now need to provide a response using an event. 
 
---- task ---
-
-In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to set their mood.
-
-[[[microbit-text]]]
-
-For a better user experience, add a `pause`{:class='microbitbasic'} block between the mood icon and the instruction block.
-
---- /task ---
-
 ### Using events
 
 --- collapse ---
@@ -49,8 +39,17 @@ Now you have chosen an event block, you need to program a response inside it.
 
 Drag an `if`{:class='microbitlogic'} block from the `Logic`{:class='microbitlogic'} menu. 
 
-Place it inside the event `on button`{:class='microbitinput'} block.
+Place it inside an event block.
 
+In this example, the `on button`{:class='microbitinput'} block has been used.
+
+```microbit
+input.onButtonPressed(Button.A, function () {
+    if (true) {
+    	
+    }
+})
+```
 --- /task ---
 
 --- task ---
@@ -71,11 +70,7 @@ Place it inside the `0` to the left on the `0 = 0`{:class='microbitlogic'} block
 
 --- task ---
 
-From the `Advanced` section of the Toolbox, drag out an empty text block from the `Text`{:class='microbittext'} menu.
-
-Place it inside the `0` to the right on the `0 = 0`{:class='microbitlogic'} block.
-
-Type in the matching mood for `Having a good day`
+Change the `0` to `1` to the right on the `0 = 0`{:class='microbitlogic'} block.
 
 Your blocks of code could look like this:
 

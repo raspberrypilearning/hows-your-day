@@ -10,7 +10,7 @@ steps:
 - title: Introduction
 - title: Start up screen
 - title: Choose your mood
-- title: Create responses
+- title: Create more responses
 - title: Quick quiz
   knowledge_quiz:
     path: quiz1
