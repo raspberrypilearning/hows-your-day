@@ -11,9 +11,9 @@ You will:
 
 ### Get ideas 💭   
 
-Test these example projects to get ideas. Think about what activity you like to do most:
+Test these example projects to get ideas. 
 
-⭐ Share your finished Active assistant project for a chance of it being featured here.
+⭐ Share your finished `How's your day?` project for a chance of it being featured here.
 
 --- task ---
 
@@ -31,7 +31,7 @@ The program has three modes:
 + Choosing / Logging your mood
 + Singing along to the melody played based on your mood
 
-1. Press Button A to reset the program
+1. Press Logo to reset the program
 2. Watch the start up animation and instructions
 3. Use a gesture to choose your mood for the day
 4. Press the A+B button to log your mood and start the response activity

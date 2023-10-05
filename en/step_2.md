@@ -24,11 +24,10 @@ You might have said:
 
 Based on the mood, you can create responses that use:
 
++ Text to show them a message 
 + Icons and animations to cheer them up
-+ Light, temperature or sound sensors to track their environment
 + Melodies and sounds for calmness or excitement
 
-You can choose any response to create a program for.
 
 --- /task ---
 
@@ -79,10 +78,10 @@ Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='micro
 
 You could show an **icon**, make an **animation** or display **text**.
 
-For instance it could show the heart logo.
+For instance it could show a heart.
 
 ```microbit
-basic.showString("How's your day?")
+basic.showIcon(IconNames.Heart)
 ```
 
 [[[microbit-icons]]]
@@ -103,21 +102,22 @@ Test your screen, show it to a friend and see if they know what the program does
 
 --- /task ---
 
-### Choosing a mood for the day
+### Select a mood
 
-You want to make sure that your program asks the user about their day and they can choose from your set options.
 
-For any mood chosen, you can then give them a response activity or show them a response.
-
-You can use input gestures to help the user choose their mood.
+Your program should the ask user about their day by letting them choose from set options.
 
 --- task ---
 
 Add instructions (using the `show string`{:class='microbitbasic'}) to the `on start`{:class='microbitbasic'} block.
 
-This will help the user know what gestures to use.
+The instructions should tell the user how to select each mood.
+
+This will help the user know what gestures to use to input their mood.
 
 [[[microbit-text]]]
+
+Remember: scrolling text on a micro:bit takes a long time so keep your text short.
 
 --- /task ---
 
@@ -129,10 +129,12 @@ Add icons to represent each mood.
 
 --- /task ---
 
+### Choosing three moods for the day
+
 --- task ---
 
 You now need to add gestures for each mood. 
-You need to add one gesture each for:
+You need to add one gesture each to your Workspace for:
 + Good day
 + Okay day
 + Bad day
@@ -153,15 +155,30 @@ Create a variable called `mood`.
 
 --- task ---
 
-At the variable to the top of your `gesture`{:class='microbitinput'} block,
-
-`set`{:class='microbitvariables'} your `mood`{:class='microbitvariables'} variable to the corresponding mood. 
+Add the variable to your `gesture`{:class='microbitinput'} block.
 
 Here is an example of the code blocks you could use:
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
-    mood = "Okay day"
+    mood = 0
+})
+```
+--- /task ---
+
+--- task ---
+
+You will also need to use a number to represent each mood. 
+
+For example `Good day` could be `1`
+`Okay day` could be `2`
+`Bad day` could be 3
+
+Change the `0` to `1` in your `set mood`{:class='microbitvariables'} variable to match the correct mood. 
+
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    mood = 1
 })
 ```
 
@@ -169,17 +186,7 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Advanced `section of the Toolbox, drag out an empty text block from the `Text`{:class='microbittext'} menu.
-
-Place it inside the `0` in the `set mood`{:class='microbitvariables'} block.
-
-You can then type which mood the variable should be set to.
-
---- /task ---
-
---- task ---
-
-You could show an **icon** or an **animation** to represent each mood.
+You could show an **icon** or an **animation** to represent each mood. You could also draw something using `show leds`{:class='microbitbasic'}
 
 [[[microbit-icons]]]
 
@@ -202,6 +209,8 @@ input.onGesture(Gesture.TiltRight, function () {
 
 --- /task ---
 
+You will need to repeat these steps twice so you have blocks in each gesture.
+
 ### Test your program
 
 --- task ---
@@ -210,7 +219,7 @@ Test your program.
 
 When the simulator restarts, check that you're happy with the instructions, icons and animation for your start-up screen.
 
-Check that when you use a gesture such as a `Tilt`{:class='microbitinput'} block, the correct mood icon or animation is shown.
+Check that when you use a gesture such as a `on tilt right`{:class='microbitinput'} block, the correct mood icon or animation is shown.
 
 --- /task ---
 
