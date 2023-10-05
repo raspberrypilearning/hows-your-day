@@ -50,7 +50,7 @@ The program has three modes:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Sample project 
+### Mood animator 
 
 Insert sample here
 

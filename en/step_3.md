@@ -1,24 +1,17 @@
-## Trigger response
+## Choose your mood
+
 Well done, you have created the moods for your user to choose from.
-You will now need to provide a response (and log the mood) using an event. 
+You will now need to provide a response using an event. 
 
 --- task ---
 
-In your `gesture`{:class='microbitinput'} block, add an instruction to tell the user to press the A+B button.
-
-This will begin the response .
+In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to choose their mood.
 
 [[[microbit-text]]]
-
---- /task ---
-
---- task ---
 
 For a better user experience, add a `pause`{:class='microbitbasic'} block between the mood icon and the instruction block.
 
 --- /task ---
-
---- task ---
 
 ### Using events
 
@@ -28,15 +21,19 @@ For a better user experience, add a `pause`{:class='microbitbasic'} block betwee
 title: Why use events?
 ---
 
-Events are a good choice if you want your user to interact with the program. ![Add more info here after examples]
+Events are a good choice if you want your user to interact with the program. 
+
+For example in the karaoke mood checker, gestures were used to choose from a range of moods and then the user pressed Button A to set their choice.
 
 --- /collapse ---
 
+
+--- task ---
+
+
 #### Events
 
-[[[microbit-making-choices]]]
-
-[[[microbit-button-trigger]]]
+[[[microbit-button]]]
 
 Add the block you need into your Workspace.
 

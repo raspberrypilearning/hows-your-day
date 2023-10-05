@@ -8,7 +8,7 @@ This means you can create a start-up screen to show instructions on how to use y
   <span style="color: #0faeb0">**User experience**</span> design is an important part of creating a product. It means thinking about ways to make your programs easy to understand and use.
 </p>
 
-### Choose your mood and responses
+### Choose your theme
 
 --- task ---
 
@@ -172,7 +172,7 @@ You will also need to use a number to represent each mood.
 
 For example `Good day` could be `1`
 `Okay day` could be `2`
-`Bad day` could be 3
+`Bad day` could be `3`
 
 Change the `0` to `1` in your `set mood`{:class='microbitvariables'} variable to match the correct mood. 
 
@@ -195,27 +195,30 @@ You could show an **icon** or an **animation** to represent each mood. You could
 Your event should now look something like this (the exact blocks could look different):
 
 ```microbit
-input.onGesture(Gesture.TiltRight, function () {
-    mood = "Bad day"
+input.onGesture(Gesture.Shake, function () {
+    mood = 1
     basic.showLeds(`
         # # . # #
         . . . . .
-        . . # . .
+        . . # . #
         . # # # .
-        # . . . #
+        . # # # .
         `)
+    basic.pause(100)
 })
 ```
 
 --- /task ---
 
-You will need to repeat these steps twice so you have blocks in each gesture.
+--- task ---
+
+Repeat these steps twice so you have blocks in each gesture.
+
+--- /task ---
 
 ### Test your program
 
 --- task ---
-
-Test your program. 
 
 When the simulator restarts, check that you're happy with the instructions, icons and animation for your start-up screen.
 
