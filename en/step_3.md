@@ -1,7 +1,7 @@
-## Choose your mood
+## Set the mood
 
 Well done, you have created the moods for your user to choose from.
-You will now need to provide a response using an event. 
+You will now need to use an event to trigger a response.
 
 ### Using events
 
@@ -13,7 +13,7 @@ title: Why use events?
 
 Events are a good choice if you want your user to interact with the program. 
 
-For example in the karaoke mood checker, gestures were used to choose from a range of moods and then the user pressed Button A to set their choice.
+For example in the karaoke mood checker, gestures were used to choose from a range of moods, and then the user presses Button A to set their choice.
 
 --- /collapse ---
 
@@ -23,9 +23,9 @@ For example in the karaoke mood checker, gestures were used to choose from a ran
 
 #### Events
 
-[[[microbit-buttons]]]
-
 Add any event block of your choice into your Workspace.
+
+[[[microbit-buttons]]]
 
 For example, in Mood animator, the `on logo pressed`{:class='microbitinput'} block is used.
 
@@ -39,7 +39,7 @@ Now you have chosen an event block, you need to program a response inside it.
 
 Drag an `if`{:class='microbitlogic'} block from the `Logic`{:class='microbitlogic'} menu. 
 
-Place it inside an event block.
+Place it inside your event block.
 
 In this example, the `on button`{:class='microbitinput'} block has been used.
 
@@ -76,7 +76,7 @@ Your blocks of code could look like this:
 
 ```microbit
 input.onButtonPressed(Button.AB, function () {
-    if (mood == "Good day") {
+    if (mood == 1) {
     	
     }
 })
@@ -85,7 +85,8 @@ input.onButtonPressed(Button.AB, function () {
 --- /task ---
 
 --- task ---
-Add a response block inside the `if`{:class='microbitlogic'} block to test your program so far.
+
+Add a response block inside the `if`{:class='microbitlogic'} block.
 
 You can show an icon or an animation or play some music.
 
@@ -99,10 +100,9 @@ You can show an icon or an animation or play some music.
 
 --- task ---
 
-Test your program. 
-
 When the simulator restarts, use a gesture to choose your mood.
 
-Press the `Button A+B` to show the user the response activity you created in the first `if`{:class='microbitlogic'} block.
+Use your event to trigger your response.
 
+[Add video to show working on micro:bit]
 --- /task ---

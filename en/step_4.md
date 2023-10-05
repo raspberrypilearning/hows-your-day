@@ -1,14 +1,6 @@
 ## Create more responses
 
-For any mood chosen, you can then give them a response activity or show them a response.
-
-You can use input gestures to help the user choose their mood.
-
---- task ---
-
-Delete the existing response you placed inside the `if`{:class='microbitlogic'} block in the `on button`{:class='microbitinput'} block.
-
---- /task ---
+For any mood your user has chosen, you can show  them something or give them an activity to do.
 
 --- task ---
 
