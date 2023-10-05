@@ -11,9 +11,9 @@ You will:
 
 ### Get ideas 💭   
 
-Test these example projects to get ideas. Think about what activity you like to do most:
+Test these example projects to get ideas. 
 
-⭐ Share your finished Active assistant project for a chance of it being featured here.
+⭐ Share your finished `How's your day?` project for a chance of it being featured here.
 
 --- task ---
 
@@ -31,7 +31,7 @@ The program has three modes:
 + Choosing / Logging your mood
 + Singing along to the melody played based on your mood
 
-1. Press Button A to reset the program
+1. Press Logo to reset the program
 2. Watch the start up animation and instructions
 3. Use a gesture to choose your mood for the day
 4. Press the A+B button to log your mood and start the response activity
@@ -50,33 +50,24 @@ The program has three modes:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Sample project 
+### Mood animator 
 
-Insert sample here
+Watch the start up instructions, which tell you to use a tilt of shake gesture to match the mood shown on the LEDs.
 
-List of samples
+- Tilt the micro:bit right to select a ‘Good’ mood (shown by a smiley face :smiley: )
+- Tilt the micro:bit left to select an ‘OK’ mood (shown by a neutral face :neutral_face: )
+- Shake the micro:bit to select an ‘Not good’ mood (shown by a frown face :white_frowning_face: )
+
+When you have chosen your mood with your gesture, you will see a ^ shown on the LEDs. Set your mood by pressing the touch logo.
+
+You will then be shown an animation response to match your mood.
 
 </div>
 <div>
-[👀 See the code 👀](https://makecode.microbit.org/_R5aR8aFjDYzT){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_R5aR8aFjDYzT" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+[👀 See the code 👀](https://makecode.microbit.org/_iy5ghqMTE7ah){:target="_blank"}
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iy5ghqMTE7ah" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
 --- /task ---
 
 --- /no-print ---
-
---- print-only ---
-
-### Get inspiration 
-
-You will make design decisions think of a way to help you or someone else complete their favourite type of activity! 
-
-Your program will need: 
-+ A start up animation & instructions
-+ Events and gestures to use during the activity
-+ Activities for your users depending on their mood
-
-<mark>one image file per example</mark>
-
---- /print-only ---

@@ -8,9 +8,9 @@ copyedit: false
 last_tested: '2021-03-26'
 steps:
 - title: Introduction
-- title: Choose your theme
-- title: Log the mood
-- title: Create responses
+- title: Start up screen
+- title: Create a response
+- title: Create more responses
 - title: Quick quiz
   knowledge_quiz:
     path: quiz1
