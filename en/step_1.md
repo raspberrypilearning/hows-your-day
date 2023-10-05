@@ -22,8 +22,6 @@ Test these example projects to get ideas.
 
 ### Karaoke machine
 
-Click the micro:bit logo at the top to restart the simulator!
-
 This is a **karaoke mood checker** - for people who like singing! 
 
 The program has three modes:
@@ -34,7 +32,7 @@ The program has three modes:
 1. Press Logo to reset the program
 2. Watch the start up animation and instructions
 3. Use a gesture to choose your mood for the day
-4. Press the A+B button to log your mood and start the response activity
+4. Press the Button A to log your mood and start the response
 
 </div>
 <div>
@@ -52,7 +50,7 @@ The program has three modes:
 
 ### Mood animator 
 
-Watch the start up instructions, which tell you to use a tilt of shake gesture to match the mood shown on the LEDs:
+Watch the start up instructions, which tell you to use a tilt or shake gesture to match the mood shown on the LEDs:
 
 - Tilt the micro:bit **right** to select a ‘Good’ mood, shown by a smiley face 🙂
 - Tilt the micro:bit **left** to select an ‘OK’ mood, shown by a neutral face 😐

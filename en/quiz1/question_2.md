@@ -1,7 +1,4 @@
 
-
-
-
 --- question ---
 
 ---
@@ -24,22 +21,48 @@ input.onGesture(Gesture.TiltLeft, function () {
     basic.showString("^")
 })
 ```
-- ( ) 
 
   --- feedback ---
-
+Awesome! When the user tilts their micro:bit to the left they're able to choose their mood.
   --- /feedback ---
 
 - ( ) 
 
-  --- feedback ---
+ 
+```microbit
+function badDay () {
+    basic.clearScreen()
+    basic.showString("Sing along!")
+    basic.pause(100)
+}
+```
 
+  --- feedback ---
+This is a function for your response and will not allow the user choose their mood.
   --- /feedback ---
 
 - ( ) 
 
-  --- feedback ---
+```microbit
+basic.forever(function () {
+    datalogger.log(datalogger.createCV("", 0))
+})
+```
 
+  --- feedback ---
+This block of code would help you log data from the sensor inputs on the micro:bit.
+  --- /feedback ---
+
+- ( ) 
+
+```microbit
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.clearScreen()
+})
+```
+
+  --- feedback ---
+This is a gesture block that would clear the screen of the micro:bit but won't let the user choose their mood.
   --- /feedback ---
 
 --- /choices ---
