@@ -69,7 +69,7 @@ input.onButtonPressed(Button.A, function () {
 
 For each response, you can create a function for the activity that will be shown to your user. 
 
-This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} block.
+This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks.
 
 You could create three functions for the three responses your user is shown.
 
@@ -114,25 +114,11 @@ You will need to call your function inside your event block to use it.
 
 --- task ---
 
-From the `Advanced` section of the Toolbox, drag out your `call`{:class='microbitfunctions'} block from the `Functions`{:class='microbitfunctions'} menu.
+From the `Advanced` section of the Toolbox, drag out your `call`{:class='microbitfunctions'} blocks from the `Functions`{:class='microbitfunctions'} menu.
 
 Ensure you use the correct response call block.
 
-Place it inside the `if`{:class='microbitlogic'} block in your event block.
-
-```microbit
-input.onButtonPressed(Button.A, function () {
-    if (mood == 1) {
-        goodDay()
-    } else if (mood == 2) {
-        okayDay()
-    } else {
-        badDay()
-    }
-})
-```
-
-Repeat this step for your `else if`{:class='microbitlogic'} blocks.
+Place them inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks in your event.
 
 --- /task ---
 
