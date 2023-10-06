@@ -136,7 +136,7 @@ Place it in your workspace.
 
 --- task ---
 
-From the `Advanced` section of the Toolbox, drag out a `reset`{:class="block3control"} block from the `Control`{:class="block3control"} menu.
+From the `Music`{:class='microbitmusic'} menu, drag out a `stop all sounds`{:class='microbitmusic'} block.
 
 Place it inside your event block.
 
@@ -144,7 +144,21 @@ The `on logo pressed`{:class='microbitinput'} block has been used in this exampl
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    control.reset()
+    music.stopAllSounds()
+})
+```
+--- /task ---
+
+--- task ---
+
+Duplicate your startup screen blocks or startup screen function.
+
+Place it below the `stop all sounds`{:class='microbitmusic'} block.
+
+```microbit
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    music.stopAllSounds()
+    startupScreen()
 })
 ```
 
