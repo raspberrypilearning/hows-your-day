@@ -122,6 +122,34 @@ Place them inside the `if`{:class='microbitlogic'} and `else if`{:class='microbi
 
 --- /task ---
 
+### Reset your karaoke mood checker
+
+Once a user has set their mood and completed a response, you can allow them reset the program and start again.
+
+--- task ---
+
+From the `Input`{:class='microbitinput'} menu, drag out an event block you have not used in your project.
+
+Place it in your workspace.
+
+--- /task ---
+
+--- task ---
+
+From the `Advanced` section of the Toolbox, drag out a `reset`{:class="block3control"} block from the `Control`{:class="block3control"} menu.
+
+Place it inside your event block.
+
+The `on logo pressed`{:class='microbitinput'} block has been used in this example.
+
+```microbit
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    control.reset()
+})
+```
+
+--- /task ---
+
 ### Test your program
 
 --- task ---
@@ -130,6 +158,7 @@ When the simulator restarts, use a gesture to choose your mood.
 
 Use your event to trigger your responses.
 
+Use your other event block to reset the program.
 
 --- /task ---
 

@@ -20,7 +20,9 @@ You might have said:
 + I had an okay day
 + I didn't have a good day
 
-[Boxout about moods and mental health]
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+  <span style="color: #0faeb0">**Moods**</span> are like the way you feel on different days. Sometimes you might feel really happy, like when you're playing with your favorite toys or spending time with friends. Other times, you might feel a little bit sad or grumpy. Moods can change throughout the day, and it's okay to have different moods.
+</p>
 
 Based on the mood, you can create responses that use:
 
