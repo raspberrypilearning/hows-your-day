@@ -122,7 +122,7 @@ Place them inside the `if`{:class='microbitlogic'} and `else if`{:class='microbi
 
 --- /task ---
 
-### Reset your karaoke mood checker
+### Reset your program
 
 Once a user has set their mood and completed a response, you can allow them reset the program and start again.
 
