@@ -88,23 +88,9 @@ Here is an example code from a function block:
 ```microbit
 function goodDay () {
     basic.clearScreen()
-    basic.showString("Sing along!")
+    basic.showString("Sing!")
     basic.pause(100)
-    music.play(music.createSoundExpression(
-    WaveShape.Noise,
-    500,
-    499,
-    255,
-    0,
-    3307,
-    SoundExpressionEffect.None,
-    InterpolationCurve.Linear
-    ), music.PlaybackMode.UntilDone)
-    if (input.soundLevel() > 128) {
-        datalogger.log(datalogger.createCV("Sound Level", input.soundLevel()))
-    } else {
-        basic.showString("Sing louder!")
-    }
+    music.play(music.stringPlayable("C C G G A A G - ", 120), music.PlaybackMode.LoopingInBackground)
 }
 ```
 

@@ -20,9 +20,9 @@ Test these example projects to get ideas.
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Karaoke machine
+### Melody mood checker
 
-This is a **karaoke mood checker** - for people who like singing! 
+This is a **melody mood checker** - for people who like music! 
 
 The program has three modes:
 + Start up screen
@@ -36,8 +36,8 @@ The program has three modes:
 
 </div>
 <div>
-[👀 See the code 👀](https://makecode.microbit.org/_FAH00716zAaa){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_FAH00716zAaa" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+[👀 See the code 👀](https://makecode.microbit.org/_CTYJm96d98sC){:target="_blank"}
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_CTYJm96d98sC" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
 

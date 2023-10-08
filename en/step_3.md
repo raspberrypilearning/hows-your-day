@@ -104,5 +104,4 @@ When the simulator restarts, use a gesture to choose your mood.
 
 Use your event to trigger your response.
 
-[Add video to show working on micro:bit]
 --- /task ---

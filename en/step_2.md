@@ -12,7 +12,7 @@ This means you can create a start-up screen to show instructions on how to use y
 
 --- task ---
 
-Think about the times you've gotten back from school or from an outing.
+Think about the times you've come home from school or from an outing.
 Your family or friends might have asked how your day went. What responses have you given?
 
 You might have said:
