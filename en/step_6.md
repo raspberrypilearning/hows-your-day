@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You could upgrade your Melody mood chekcer to a Karaoke mood checker by:
+You could upgrade your Melody mood checker to a Karaoke mood checker by:
 + Adding microphone input to check the user is singing along
 + Logging the chosen mood
 + Use the sensor inputs to log the data from your environment for each mood
@@ -18,7 +18,7 @@ This is an upgraded version of one of the example programs.
 
 1. When the response song plays, the user can sing along
 2. When the event button is pressed to set the mood, the mood is also logged
-3. The data from sensor inputs such as sound, light and temperatue levels are logged (sound is not available for V2 users). This will allow the user check what around them might be affecting their mood.
+3. The data from sensor inputs such as sound, light and temperature levels are logged (sound is not available for V2 users). This will allow the user check what around them might be affecting their mood.
 
 </div>
 <div>
