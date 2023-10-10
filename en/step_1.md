@@ -74,6 +74,8 @@ This will display an animation response to match your mood:
 
 --- /task ---
 
+--- task ---
+
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
@@ -97,5 +99,6 @@ The program has:
 
 </div>
 
+--- /task ---
 
 --- /no-print ---
