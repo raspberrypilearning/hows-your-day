@@ -85,11 +85,11 @@ This is a **Mood indicator** - to help people keep track of their mood, and let 
 
 The program has:
 + A start up screen
-+ The use of buttons to increase or decrease how you are feeling
-+ A graph and emoji and/or sounds to show how you are feeling.
++ The use of buttons to set the level of your mood.
++ A graph, an emoji, and/or sounds to show how you are feeling.
 
 1. Watch the start up animation and instructions
-2. Use Button A each time you feel happy and A each time you feel sad.
+2. Use Button A each time you feel happy and B each time you feel sad.
 3. Your mood will be displayed on a graph, and using an emoji.
 
 </div>
