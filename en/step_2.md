@@ -1,4 +1,4 @@
-## Start up screen
+## Start-up screen
 
 You may want your friends and family to share and use your mood checker. 
 
