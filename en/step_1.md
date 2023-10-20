@@ -11,7 +11,7 @@ You will:
 
 ### Get ideas 💭   
 
-Test these example projects to get ideas. 
+Test these example projects to get some ideas. 
 
 ⭐ Share your finished `How's your day?` project for a chance of it being featured here.
 
@@ -26,13 +26,13 @@ This is a **melody mood checker** - for people who like music!
 
 The program has three modes:
 + Start up screen
-+ Choosing / Setting your mood
++ Choosing / setting your mood
 + Singing along to the melody played based on your mood
 
 1. Press Logo to reset the program
 2. Watch the start up animation and instructions
 3. Use a gesture to choose your mood for the day
-4. Press the Button A to set your mood and start the response
+4. Press Button A to set your mood and start the response
 
 </div>
 <div>
@@ -54,7 +54,7 @@ Watch the start up instructions, which tell you to use a tilt or shake gesture t
 
 - Tilt the micro:bit **right** to select a ‘Good’ mood, shown by a smiley face 🙂
 - Tilt the micro:bit **left** to select an ‘OK’ mood, shown by a neutral face 😐
-- **Shake** the micro:bit to select an ‘Not good’ mood, shown by a frowning face 🙁
+- **Shake** the micro:bit to select a ‘Not good’ mood, shown by a frowning face 🙁
 
 When you have chosen your mood with your tilt or shake gesture, you will see an up arrow **^** shown on the LEDs. 
 
@@ -64,7 +64,7 @@ This will display an animation response to match your mood:
 
 - A celebration dance to celebrate a 'Good' mood
 - An encouragement to smile in response to an 'OK' mood
-- A breathing animation to celebrate a 'Not good' mood.
+- A breathing animation to acknowledge a 'Not good' mood
 
 </div>
 <div>
@@ -81,16 +81,16 @@ This will display an animation response to match your mood:
 
 ### Graph that mood
 
-This is a **Mood indicator** - to help people keep track of their mood, and let others know how they're feeling
+This is a **mood indicator** that helps people keep track of their mood, and let others know how they're feeling.
 
 The program has:
 + A start up screen
-+ The use of buttons to set the level of your mood.
-+ A graph, an emoji, and/or sounds to show how you are feeling.
++ The use of buttons to set the level of your mood
++ A graph, an emoji, and/or sounds to show how you are feeling
 
 1. Watch the start up animation and instructions
-2. Use Button A each time you feel happy and B each time you feel sad.
-3. Your mood will be displayed on a graph, and using an emoji.
+2. Use Button A each time you feel happy and Button B each time you feel sad
+3. Your mood will be displayed on a graph, and using an emoji
 
 </div>
 <div>
