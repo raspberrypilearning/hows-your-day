@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-In your project you used `Gestures`{:class='microbitinput'}, to allow the user to choose their mood. 
+In your project you used `Gestures`{:class='microbitinput'} to allow the user to choose their mood. 
 
 Which of these code blocks would allow a user to choose their mood.
 
