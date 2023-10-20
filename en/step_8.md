@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Introduction to micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro) path, you can move on to the [Active assistant!](https://projects.raspberrypi.org/en/projects/active-assistant) project. In this project, you will make a a version of your favourite party game to play with your friends and family.
+If you are following the [Introduction to micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro) path, you can move on to the [Active assistant](https://projects.raspberrypi.org/en/projects/active-assistant) project. In this project, you will make a version of your favourite party game to play with your friends and family.
 
 --- no-print ---
 
@@ -14,12 +14,12 @@ Click the micro:bit logo at the top to restart the simulator!
 This is a **bleep test** - for people who like running! 
 
 The assistant has three modes:
-+ Start up animation
++ Start-up animation
 + The activity
 + Results
 
 1. Press the micro:bit logo at the top to reset the program
-2. Watch the start up animation and instructions
+2. Watch the start-up animation and instructions
 3. Press B to start the activity
 4. Wait for a few bleeps and then press B to see the results!
 
