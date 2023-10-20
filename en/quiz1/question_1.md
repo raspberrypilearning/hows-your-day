@@ -37,7 +37,7 @@ The `show leds`{:class='microbitbasic'} block allows you to display images and c
 `show string`{:class='microbitbasic'}
 
   --- feedback ---
-Yes, this is the block to display a message to your user!
+Yes, this is the block used to display a message to your user!
   --- /feedback ---
 
 - ( ) 
