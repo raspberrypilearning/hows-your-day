@@ -1,8 +1,8 @@
 ## Start up screen
 
-You may want your mood checker to be used by your friends and family. 
+You may want your friends and family to share and use your mood checker. 
 
-This means you can create a start-up screen to show instructions on how to use your program.
+This means you need to create a start-up screen to show some instructions for how to use it.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
   <span style="color: #0faeb0">**User experience**</span> design is an important part of creating a product. It means thinking about ways to make your programs easy to understand and use.
@@ -12,8 +12,7 @@ This means you can create a start-up screen to show instructions on how to use y
 
 --- task ---
 
-Think about the times you've come home from school or from an outing.
-Your family or friends might have asked how your day went. What responses have you given?
+Think about when you've come home from school or from an outing and your family or friends have asked how your day went. What responses did you give?
 
 You might have said:
 + I had a good day
@@ -21,12 +20,12 @@ You might have said:
 + I didn't have a good day
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-  <span style="color: #0faeb0">**Moods**</span> are like the way you feel on different days. Sometimes you might feel really happy, like when you're playing with your favorite toys or spending time with friends. Other times, you might feel a little bit sad or grumpy. Moods can change throughout the day, and it's okay to have different moods.
+  <span style="color: #0faeb0">**Moods**</span> are the way you feel on different days or at different times of the day. Sometimes you might feel really happy, like when you're playing with your favourite toys or spending time with friends. Other times, you might feel a little bit sad or grumpy. Moods can change throughout the day, and it's okay to have different moods.
 </p>
 
-Based on the mood, you can create responses that use:
+Based on the mood your user chooses, you can create responses that use:
 
-+ Text to show them a message 
++ Text to show the user a message 
 + Icons and animations to cheer them up
 + Melodies and sounds for calmness or excitement
 
@@ -37,7 +36,7 @@ Based on the mood, you can create responses that use:
 
 --- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}
+Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 --- collapse ---
 
@@ -68,7 +67,7 @@ Click on the **New Project** button.
 --- /task ---
 
 
-### Make your start up screen
+### Make your start-up screen
 
 Create a start-up screen that shows your user what your device is for and how to use it.
 
@@ -78,9 +77,9 @@ You should make this in the `on start`{:class='microbitbasic'} block of your new
 
 Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='microbitbasic'} block that your user will see when the program starts.
 
-You could show an **icon**, make an **animation** or display **text**.
+You could show an **icon**, make an **animation**, or display **text**.
 
-For instance it could show a heart.
+For instance, it could show a heart.
 
 ```microbit
 basic.showIcon(IconNames.Heart)
@@ -92,7 +91,7 @@ basic.showIcon(IconNames.Heart)
 
 [[[microbit-text]]]
 
-If your start-up screen is complicated you might want to organise the code into a **function**.
+If your start-up screen is complicated, you might want to organise the code into a **function**.
 
 [[[microbit-function]]]
 
@@ -107,11 +106,11 @@ Test your screen, show it to a friend and see if they know what the program does
 ### Select a mood
 
 
-Your program should the ask user about their day by letting them choose from set options.
+Your program should the ask user about their day and let them choose from set options.
 
 --- task ---
 
-Add instructions (using the `show string`{:class='microbitbasic'}) to the `on start`{:class='microbitbasic'} block.
+Add instructions to the `on start`{:class='microbitbasic'} block by using `show string`{:class='microbitbasic'}.
 
 The instructions should tell the user how to select each mood.
 
@@ -119,7 +118,7 @@ This will help the user know what gestures to use to input their mood.
 
 [[[microbit-text]]]
 
-Remember: scrolling text on a micro:bit takes a long time so keep your text short.
+Remember: Text on a micro:bit takes a long time to scroll, so keep your text short.
 
 --- /task ---
 
@@ -131,12 +130,12 @@ Add icons to represent each mood.
 
 --- /task ---
 
-### Choosing three moods for the day
+### Choose three moods for the day
 
 --- task ---
 
 You now need to add gestures for each mood. 
-You need to add one gesture each to your Workspace for:
+You need to add one gesture each for:
 + Good day
 + Okay day
 + Bad day
@@ -172,9 +171,7 @@ input.onGesture(Gesture.Shake, function () {
 
 You will also need to use a number to represent each mood. 
 
-For example `Good day` could be `1`
-`Okay day` could be `2`
-`Bad day` could be `3`
+For example, `Good day` could be `1`, `Okay day` could be `2`, and `Bad day` could be `3`.
 
 Change the `0` to `1` in your `set mood`{:class='microbitvariables'} variable to match the correct mood. 
 
@@ -188,13 +185,13 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-You could show an **icon** or an **animation** to represent each mood. You could also draw something using `show leds`{:class='microbitbasic'}
+You could show an **icon** or an **animation** to represent each mood. You could also draw something using `show leds`{:class='microbitbasic'}.
 
 [[[microbit-icons]]]
 
 [[[microbit-animation]]]
 
-Your event should now look something like this (the exact blocks could look different):
+Your event block should now look something like this (the exact blocks may be different):
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -213,7 +210,7 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-Repeat these steps twice so you have blocks in each gesture.
+Repeat these steps twice so you have blocks for each gesture.
 
 --- /task ---
 
@@ -246,7 +243,7 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-When the simulator restarts, check that you're happy with the instructions, icons and animation for your start-up screen.
+When the simulator restarts, check that you're happy with the instructions, icons, and animation for your start-up screen.
 
 Check that when you use a gesture such as a `on tilt right`{:class='microbitinput'} block, the correct mood icon or animation is shown.
 
