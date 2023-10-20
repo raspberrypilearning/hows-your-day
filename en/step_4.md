@@ -20,7 +20,7 @@ Add them inside the `else if`{:class='microbitlogic'} blocks.
 
 Here are some reminders of things you have already done in the Explore projects that you might want to use.
 
-#### Using the LEDs
+#### Use the LEDs
 
 [[[microbit-icons]]]
 
@@ -30,7 +30,7 @@ Here are some reminders of things you have already done in the Explore projects 
 
 [[[microbit-plot-graph]]]
 
-#### Using sounds
+#### Use sounds
 
 [[[microbit-playing-sounds]]]
 
@@ -65,7 +65,7 @@ input.onButtonPressed(Button.A, function () {
 --- /task ---
 
 
-### Using functions to organise your responses
+### Use functions to organise your responses
 
 For each response, you can create a function for the activity that will be shown to your user. 
 
@@ -83,7 +83,7 @@ You could create three functions for the three responses your user is shown.
 
 Drag your response blocks into your newly created function blocks. 
 
-Here is an example code from a function block:
+Here is some example code from a function block:
 
 ```microbit
 function goodDay () {
@@ -104,7 +104,7 @@ From the `Advanced` section of the Toolbox, drag out your `call`{:class='microbi
 
 Ensure you use the correct response call block.
 
-Place them inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks in your event.
+Place these blocks inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks in your event.
 
 --- /task ---
 
@@ -137,7 +137,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- task ---
 
-Duplicate your startup screen blocks or startup screen function.
+Duplicate your start-up screen blocks or start-up screen function.
 
 Place it below the `stop all sounds`{:class='microbitmusic'} block.
 
@@ -156,7 +156,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 When the simulator restarts, use a gesture to choose your mood.
 
-Use your event to trigger your responses.
+Use your event to trigger your response.
 
 Use your other event block to reset the program.
 
