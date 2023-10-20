@@ -29,7 +29,7 @@ Well done! `Functions`{:class='microbitfunctions'} were used to tidy up your cod
 Music
 
   --- feedback ---
-`Music`{:class='microbitmusic'} blocks were used in creating responses but not to tidy up your code.
+`Music`{:class='microbitmusic'} blocks were used in creating responses, but not to tidy up your code.
   --- /feedback ---
 
 --- /choices ---
