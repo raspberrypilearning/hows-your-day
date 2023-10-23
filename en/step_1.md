@@ -1,6 +1,6 @@
 ## You will make
 
-You will create a program that checks how you or your friends' day went and shows a response based on your choice.
+You will create a program that checks what kind of day you or your friends have had and shows a response based on your choice.
 
 You will:
 + Choose your mood for the day
@@ -22,7 +22,7 @@ Test these example projects to get some ideas.
 
 ### Melody mood checker
 
-This is a **melody mood checker** - for people who like music! 
+This is a **melody mood checker** — for people who like music! 
 
 The program has three modes:
 + Start up screen
@@ -84,11 +84,11 @@ This will display an animation response to match your mood:
 This is a **mood indicator** that helps people keep track of their mood, and let others know how they're feeling.
 
 The program has:
-+ A start up screen
-+ The use of buttons to set the level of your mood
++ A start-up screen
++ Buttons to set the level of your mood
 + A graph, an emoji, and/or sounds to show how you are feeling
 
-1. Watch the start up animation and instructions
+1. Watch the start-up animation and instructions
 2. Use Button A each time you feel happy and Button B each time you feel sad
 3. Your mood will be displayed on a graph, and using an emoji
 
