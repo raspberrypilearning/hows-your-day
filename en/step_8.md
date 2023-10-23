@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Introduction to micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro) path, you can move on to the [Active assistant](https://projects.raspberrypi.org/en/projects/active-assistant) project. In this project, you will make a version of your favourite party game to play with your friends and family.
+If you are following the [Introduction to micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro) path, you can move on to the [Active assistant](https://projects.raspberrypi.org/en/projects/active-assistant) project. In this project, you will make an assistant that helps you when you do your favourite type of exercise.
 
 --- no-print ---
 
@@ -11,7 +11,7 @@ If you are following the [Introduction to micro:bit](https://projects.raspberryp
 
 Click the micro:bit logo at the top to restart the simulator!
 
-This is a **bleep test** - for people who like running! 
+This is a **bleep test** for people who like running! 
 
 The assistant has three modes:
 + Start-up animation
