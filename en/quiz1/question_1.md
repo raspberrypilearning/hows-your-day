@@ -12,7 +12,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-In your project you could show instructions to your user using the `Basic`{:class='microbitbasic'} menu. Which block did you use?
+In your project, you showed your user instructions by using the `Basic`{:class='microbitbasic'} menu. Which block did you use?
 
 --- choices ---
 
