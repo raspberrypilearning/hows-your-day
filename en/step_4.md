@@ -69,7 +69,7 @@ input.onButtonPressed(Button.A, function () {
 
 For each response, you can create a function for the activity that will be shown to your user. 
 
-This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks.
+This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} block.
 
 You could create three functions for the three responses your user is shown.
 
@@ -114,7 +114,7 @@ Once a user has set their mood and completed a response, you can allow them rese
 
 --- task ---
 
-From the `Input`{:class='microbitinput'} menu, drag out an event block you have not used in your project.
+From the `Input`{:class='microbitinput'} menu, drag out an event block you have not yet used in your project.
 
 Place it in your workspace.
 
