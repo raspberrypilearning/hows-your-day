@@ -25,12 +25,12 @@ Test these example projects to get some ideas.
 This is a **melody mood checker** — for people who like music! 
 
 The program has three modes:
-+ Start up screen
-+ Choosing / setting your mood
++ Start-up screen
++ Choosing and setting your mood
 + Singing along to the melody played based on your mood
 
 1. Press Logo to reset the program
-2. Watch the start up animation and instructions
+2. Watch the start-up animation and instructions
 3. Use a gesture to choose your mood for the day
 4. Press Button A to set your mood and start the response
 
@@ -50,7 +50,7 @@ The program has three modes:
 
 ### Mood animator 
 
-Watch the start up instructions, which tell you to use a tilt or shake gesture to match the mood shown on the LEDs:
+Watch the start-up instructions, which tell you to use a tilt or shake gesture to match the mood shown on the LEDs:
 
 - Tilt the micro:bit **right** to select a ‘Good’ mood, shown by a smiley face 🙂
 - Tilt the micro:bit **left** to select an ‘OK’ mood, shown by a neutral face 😐
@@ -60,7 +60,7 @@ When you have chosen your mood with your tilt or shake gesture, you will see an 
 
 This means you should press the touch logo to set your mood.
 
-This will display an animation response to match your mood:
+This will display an animated response to match your mood:
 
 - A celebration dance to celebrate a 'Good' mood
 - An encouragement to smile in response to an 'OK' mood
@@ -81,7 +81,7 @@ This will display an animation response to match your mood:
 
 ### Graph that mood
 
-This is a **mood indicator** that helps people keep track of their mood, and let others know how they're feeling.
+This **mood indicator** helps people keep track of their mood, and let others know how they're feeling.
 
 The program has:
 + A start-up screen
