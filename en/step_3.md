@@ -62,13 +62,13 @@ Place it inside the `true`{:class='microbitlogic'} part of the `if`{:class='micr
 
 --- task ---
 
-Drag your `mood`{:class='microbitvariables'} variable block and place it inside the `0` to the left on the `0 = 0`{:class='microbitlogic'} block.
+Drag your `mood`{:class='microbitvariables'} variable block and place it inside the `0` on the left of the `0 = 0`{:class='microbitlogic'} block.
 
 --- /task ---
 
 --- task ---
 
-Change the `0` on the right on the `0 = 0`{:class='microbitlogic'} block to `1`.
+Change the `0` on the right of the `0 = 0`{:class='microbitlogic'} block to `1`.
 
 Your blocks of code could look like this:
 
