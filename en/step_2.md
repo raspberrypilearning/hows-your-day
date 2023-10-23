@@ -50,7 +50,7 @@ There is also a [downloadable version of the MakeCode editor](https://makecode.m
 
 --- /task ---
 
-Once the editor is open, you will need to create a new project and give your project a name. 
+Once the editor is open, create a new project and give your project a name. 
 
 --- task ---
 
@@ -71,11 +71,11 @@ Click on the **New Project** button.
 
 Create a start-up screen that shows your user what your device is for and how to use it.
 
-You should make this in the `on start`{:class='microbitbasic'} block of your new project. 
+You will make this in the `on start`{:class='microbitbasic'} block of your new project. 
 
 --- task ---
 
-Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='microbitbasic'} block that your user will see when the program starts.
+Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='microbitbasic'} block. The blocks you choose will depend on what you want your user to see when the program starts.
 
 You could show an **icon**, make an **animation**, or display **text**.
 
@@ -130,7 +130,7 @@ Add icons to represent each mood.
 
 --- /task ---
 
-### Choose three moods for the day
+### Choose three moods
 
 --- task ---
 
