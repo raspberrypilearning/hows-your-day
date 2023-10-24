@@ -18,7 +18,7 @@ This is an upgraded version of one of the example programs.
 
 1. When the response song plays, the user can sing along
 2. When the event button is pressed to set the mood, the mood is also logged
-3. The data from sensor inputs, such as sound, light, and temperature levels, are logged (sound is not available for V2 users). This will allow the user to check what around them might be affecting their mood.
+3. The data from sensor inputs, such as sound, light, and temperature levels, are logged (sound is not available for V1 users). This will allow the user to check what around them might be affecting their mood.
 
 </div>
 <div>
