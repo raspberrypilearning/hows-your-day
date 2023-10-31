@@ -12,40 +12,40 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-In your project you created a screen to greet your user, which event block did you use to display it?
+In your project, you showed your user instructions by using the `Basic`{:class='microbitbasic'} menu. Which block did you use?
 
 --- choices ---
 
-- (x)
+- ( )
 
-`on start`{:class='microbitbasic'}
+`show icon`{:class='microbitbasic'}
 
   --- feedback ---
-Yes, this is the event that runs at the beginning of your program!
+The `show icon`{:class='microbitbasic'} block displays icons to be shown to a user.
   --- /feedback ---
 
 - ( )
 
-`forever`{:class='microbitbasic'}
+`show leds`{:class='microbitbasic'}
 
   --- feedback ---
-The `forever`{:class='microbitbasic'} block is a **loop** that constantly repeats while your program is running, if you put something in here it will be shown again and again.
+The `show leds`{:class='microbitbasic'} block allows you to display images and create animations for a user.
   --- /feedback ---
 
 - (x) 
 
-`on button A pressed`{:class='microbitinput'}
+`show string`{:class='microbitbasic'}
 
   --- feedback ---
-This event only happens when the user presses Button A, no automatically when you run the program.
+Yes, this is the block used to display a message to your user!
   --- /feedback ---
 
 - ( ) 
 
-`on shake`{:class='microbitinput'}
+`show arrow`{:class='microbitbasic'}
 
   --- feedback ---
-Shake is a gesture, and this event would only happen when the user shakes the microbit, not automatically at the beginning of the program.
+The `show arrow`{:class='microbitbasic'} block can be used to display arrows to a user.
   --- /feedback ---
 
 --- /choices ---

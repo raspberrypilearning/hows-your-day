@@ -1,7 +1,7 @@
 ## Create a response
 
 Well done, you have created the moods for your user to choose from.
-You will now need to use an event to trigger a response.
+You will now use an event to trigger a response.
 
 ### Set your mood
 
@@ -13,7 +13,7 @@ title: Why use events?
 
 Events are a good choice if you want your user to interact with the program. 
 
-For example in the karaoke mood checker, gestures were used to choose from a range of moods, and then the user presses Button A to set their choice.
+For example, in the karaoke mood checker, gestures were used to choose from a range of moods, and then the user pressed Button A to set their choice.
 
 --- /collapse ---
 
@@ -21,13 +21,13 @@ For example in the karaoke mood checker, gestures were used to choose from a ran
 --- task ---
 
 
-#### Using Events
+#### Using events
 
-Add any event block of your choice into your Workspace.
+Add any event block of your choice into your workspace.
 
 [[[microbit-buttons]]]
 
-For example, in Mood animator, the `on logo pressed`{:class='microbitinput'} block is used.
+For example, in the mood animator, the `on logo pressed`{:class='microbitinput'} block is used.
 
 --- /task ---
 
@@ -54,7 +54,7 @@ input.onButtonPressed(Button.A, function () {
 
 --- task ---
 
-Open the `Logic`{:class='microbitlogic'} menu and grab the `0 = 0`{:class='microbitlogic'} block. 
+Open the `Logic`{:class='microbitlogic'} menu and get the `0 = 0`{:class='microbitlogic'} block. 
 
 Place it inside the `true`{:class='microbitlogic'} part of the `if`{:class='microbitlogic'} statement.
 
@@ -62,15 +62,13 @@ Place it inside the `true`{:class='microbitlogic'} part of the `if`{:class='micr
 
 --- task ---
 
-Drag your `mood`{:class='microbitvariables'} variable block.
-
-Place it inside the `0` to the left on the `0 = 0`{:class='microbitlogic'} block.
+Drag your `mood`{:class='microbitvariables'} variable block and place it inside the `0` on the left of the `0 = 0`{:class='microbitlogic'} block.
 
 --- /task ---
 
 --- task ---
 
-Change the `0` to `1` to the right on the `0 = 0`{:class='microbitlogic'} block.
+Change the `0` on the right of the `0 = 0`{:class='microbitlogic'} block to `1`.
 
 Your blocks of code could look like this:
 
@@ -104,5 +102,4 @@ When the simulator restarts, use a gesture to choose your mood.
 
 Use your event to trigger your response.
 
-[Add video to show working on micro:bit]
 --- /task ---

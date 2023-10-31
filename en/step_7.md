@@ -14,7 +14,7 @@ You could also show your family how your project works.
 
 Inspire the Raspberry Pi Foundation community with your project!
 
-To submit your project please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} and share your project link with us!
+To submit your project, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} and share your project link with us!
 
 It might be featured on the first page of this project for others to get inspiration from.
 

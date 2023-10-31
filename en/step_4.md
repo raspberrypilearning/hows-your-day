@@ -20,7 +20,7 @@ Add them inside the `else if`{:class='microbitlogic'} blocks.
 
 Here are some reminders of things you have already done in the Explore projects that you might want to use.
 
-#### Using the LEDs
+#### Use the LEDs
 
 [[[microbit-icons]]]
 
@@ -30,7 +30,7 @@ Here are some reminders of things you have already done in the Explore projects 
 
 [[[microbit-plot-graph]]]
 
-#### Using sounds
+#### Use sounds
 
 [[[microbit-playing-sounds]]]
 
@@ -65,11 +65,11 @@ input.onButtonPressed(Button.A, function () {
 --- /task ---
 
 
-### Using functions to organise your responses
+### Use functions to organise your responses
 
 For each response, you can create a function for the activity that will be shown to your user. 
 
-This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks.
+This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} block.
 
 You could create three functions for the three responses your user is shown.
 
@@ -83,28 +83,14 @@ You could create three functions for the three responses your user is shown.
 
 Drag your response blocks into your newly created function blocks. 
 
-Here is an example code from a function block:
+Here is some example code from a function block:
 
 ```microbit
 function goodDay () {
     basic.clearScreen()
-    basic.showString("Sing along!")
+    basic.showString("Sing!")
     basic.pause(100)
-    music.play(music.createSoundExpression(
-    WaveShape.Noise,
-    500,
-    499,
-    255,
-    0,
-    3307,
-    SoundExpressionEffect.None,
-    InterpolationCurve.Linear
-    ), music.PlaybackMode.UntilDone)
-    if (input.soundLevel() > 128) {
-        datalogger.log(datalogger.createCV("Sound Level", input.soundLevel()))
-    } else {
-        basic.showString("Sing louder!")
-    }
+    music.play(music.stringPlayable("C C G G A A G - ", 120), music.PlaybackMode.LoopingInBackground)
 }
 ```
 
@@ -118,7 +104,49 @@ From the `Advanced` section of the Toolbox, drag out your `call`{:class='microbi
 
 Ensure you use the correct response call block.
 
-Place them inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks in your event.
+Place these blocks inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks in your event.
+
+--- /task ---
+
+### Reset your program
+
+Once a user has set their mood and completed a response, you can allow them reset the program and start again.
+
+--- task ---
+
+From the `Input`{:class='microbitinput'} menu, drag out an event block you have not yet used in your project.
+
+Place it in your workspace.
+
+--- /task ---
+
+--- task ---
+
+From the `Music`{:class='microbitmusic'} menu, drag out a `stop all sounds`{:class='microbitmusic'} block.
+
+Place it inside your event block.
+
+The `on logo pressed`{:class='microbitinput'} block has been used in this example.
+
+```microbit
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    music.stopAllSounds()
+})
+```
+--- /task ---
+
+--- task ---
+
+Duplicate your start-up screen blocks or start-up screen function.
+
+Place it below the `stop all sounds`{:class='microbitmusic'} block.
+
+```microbit
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    music.stopAllSounds()
+    startupScreen()
+})
+```
 
 --- /task ---
 
@@ -128,8 +156,9 @@ Place them inside the `if`{:class='microbitlogic'} and `else if`{:class='microbi
 
 When the simulator restarts, use a gesture to choose your mood.
 
-Use your event to trigger your responses.
+Use your event to trigger your response.
 
+Use your other event block to reset the program.
 
 --- /task ---
 
