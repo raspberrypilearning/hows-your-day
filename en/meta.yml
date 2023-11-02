@@ -1,7 +1,7 @@
 ---
 title: How's your day?
 hero_image: images/banner.png
-description: design-project-template description
+description: Build a mood checker program that shows a different response based on how your day was.
 version: 4
 listed: false
 copyedit: false
