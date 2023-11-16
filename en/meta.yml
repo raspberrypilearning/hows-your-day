@@ -3,8 +3,8 @@ title: How's your day?
 hero_image: images/banner.png
 description: Build a mood checker program that shows a different response based on how your day was.
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: '2021-03-26'
 steps:
 - title: Introduction
