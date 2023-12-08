@@ -34,3 +34,12 @@ Het programma heeft drie onderdelen:
 --- /no-print ---
 
 Als je nog meer plezier wilt hebben met het verkennen van de micro:bit, dan kun je [deze projecten](https://projects.raspberrypi.org/nl-NL/projects?hardware%5B%5D=microbit) proberen.
+
+***
+
+Dit project werd vertaald door vrijwilligers:
+
+Iny van Beuningen
+Jeroen Wernsen
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
