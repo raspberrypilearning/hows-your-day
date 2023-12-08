@@ -18,15 +18,15 @@ The gesture blocks from the `Input`{:class='microbitinput'} menu were used to ch
 
 - (x)
 
-Functions
+`Functions`{:class='microbitfunctions'}
 
 \--- feedback ---
 Well done! `Functions`{:class='microbitfunctions'} were used to tidy up your code and complete a specific task.
 \--- /feedback ---
 
-- (x)
+- ( )
 
-Music
+`Music`{:class='microbitmusic'}
 
 \--- feedback ---
 `Music`{:class='microbitmusic'} blocks were used in creating responses, but not to tidy up your code.
