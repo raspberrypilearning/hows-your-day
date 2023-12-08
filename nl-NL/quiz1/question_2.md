@@ -2,11 +2,11 @@
 
 ***
 
-## legend: Question 2 of 3
+## legend: Vraag 2 van 3
 
-In your project you used `Gestures`{:class='microbitinput'} to allow the user to choose their mood.
+In je project heb je `Gebaren`{:class='microbitinput'} gebruikt om de gebruiker zijn stemming te laten kiezen.
 
-Which of these code blocks would allow a user to choose their mood.
+Met welke van deze codeblokken kan een gebruiker zijn stemming kiezen.
 
 \--- choices ---
 
@@ -22,7 +22,7 @@ input.onGesture(Gesture.TiltLeft, function () {
 ```
 
 \--- feedback ---
-Awesome! When the user tilts their micro:bit to the left they're able to choose their mood.
+Awesome! Wanneer de gebruiker zijn micro:bit naar links kantelt, kan hij zijn stemming kiezen.
 \--- /feedback ---
 
 - ( )
@@ -36,7 +36,7 @@ function badDay () {
 ```
 
 \--- feedback ---
-This is a function for your response and will not allow the user choose their mood.
+Dit is een functie voor je antwoord en laat de gebruiker niet zijn stemming kiezen.
 \--- /feedback ---
 
 - ( )
@@ -48,7 +48,7 @@ basic.forever(function () {
 ```
 
 \--- feedback ---
-This block of code would help you log data from the sensor inputs on the micro:bit.
+Dit blok code helpt je om gegevens van de sensoringangen op de micro:bit te registreren.
 \--- /feedback ---
 
 - ( )
@@ -60,7 +60,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 ```
 
 \--- feedback ---
-This is a gesture block that would clear the screen of the micro:bit but won't let the user choose their mood.
+Dit is een gebarenblok dat het scherm van de micro:bit leegmaakt, maar de gebruiker zijn stemming niet laat kiezen.
 \--- /feedback ---
 
 \--- /choices ---
