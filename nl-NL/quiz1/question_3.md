@@ -2,34 +2,34 @@
 
 ***
 
-## legend: Question 3 of 3
+## legend: Vraag 3 van 3
 
-In your project you used these blocks from the Advanced menu to tidy up your blocks of code. You also had to call them. What are these blocks called?
+In je project heb je deze blokken in het Geavanceerde menu gebruikt om je blokken code overzichtelijker te maken. Je moest ze ook aanroepen. Hoe noemen deze blokken?
 
 \--- choices ---
 
 - ( )
 
-`Input`{:class='microbitinput'}
+`Invoer`{:class='microbitinput'}
 
 \--- feedback ---
-The gesture blocks from the `Input`{:class='microbitinput'} menu were used to choose the mood. Event blocks were also used to set the moood.
+De gebaren blokken uit het `Invoer`{:class='microbitinput'} menu zijn gebruikt om de stemming te kiezen. Gebeurtenisblokken werden ook gebruikt om de stemming te bepalen.
 \--- /feedback ---
 
 - (x)
 
-Functions
+`Functions`{:class='microbitfunctions'}
 
 \--- feedback ---
-Well done! `Functions`{:class='microbitfunctions'} were used to tidy up your code and complete a specific task.
+Goed gedaan! `Functies`{:class='microbitfunctions'} werden gebruikt om je code netjes te maken en een specifieke taak te voltooien.
 \--- /feedback ---
 
-- (x)
+- ( )
 
-Music
+`Music`{:class='microbitmusic'}
 
 \--- feedback ---
-`Music`{:class='microbitmusic'} blocks were used in creating responses, but not to tidy up your code.
+`Muziek`{:class='microbitmusic'} blokken zijn gebruikt bij het maken van reacties, maar niet om je code te organiseren.
 \--- /feedback ---
 
 \--- /choices ---
