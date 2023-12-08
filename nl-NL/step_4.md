@@ -1,12 +1,12 @@
-## Create more responses
+## Meer antwoorden maken
 
-For any mood your user has chosen, you can show them something or give them an activity to do.
+Voor elke stemming die je gebruiker heeft gekozen, kun je iets tonen of een activiteit geven.
 
 \--- task ---
 
-Add more responses to your `on button`{:class='microbitinput'} block for the other response options.
+Voeg meer reacties toe aan je `wanneer knop wordt ingedrukt`{:class='microbitinput'} blok voor de andere antwoordopties.
 
-Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to add `else if`{:class='microbitlogic'} blocks.
+Klik op de `+` knop onderaan je `als`{:class='microbitlogic'} blok om `anders als`{:class='microbitlogic'} blokken toe te voegen.
 
 \[\[\[microbit-making-choices]]]
 
@@ -14,13 +14,13 @@ Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to
 
 \--- task ---
 
-Use your micro:bit skills to create more responses.
+Gebruik je micro:bit vaardigheden om meer antwoorden te maken.
 
-Add them inside the `else if`{:class='microbitlogic'} blocks.
+Voeg ze toe in de `anders als`{:class='microbitlogic'} blokken.
 
-Here are some reminders of things you have already done in the Explore projects that you might want to use.
+Misschien herinner je deze dingen die je al gedaan hebt in de Verkennen projecten, die je misschien wilt gebruiken.
 
-#### Use the LEDs
+#### De LED's gebruiken
 
 \[\[\[microbit-icons]]]
 
@@ -30,7 +30,7 @@ Here are some reminders of things you have already done in the Explore projects 
 
 \[\[\[microbit-plot-graph]]]
 
-#### Use sounds
+#### Geluid gebruiken
 
 \[\[\[microbit-playing-sounds]]]
 
@@ -38,15 +38,15 @@ Here are some reminders of things you have already done in the Explore projects 
 
 \[\[\[microbit-volume]]]
 
-#### Other
+#### Overig
 
 \[\[\[microbit-timer]]]
 
 \[\[\[microbit-counting]]]
 
-Have a look over the projects you have made throughout the path for inspiration for your responses.
+Kijk eens naar de projecten die je tijdens het pad al hebt gemaakt, om ideeën op te doen voor je antwoorden.
 
-Here is an example of responses you can add:
+Hier is een voorbeeld van antwoorden die je kunt toevoegen:
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -65,13 +65,13 @@ input.onButtonPressed(Button.A, function () {
 
 \--- /task ---
 
-### Use functions to organise your responses
+### Functies gebruiken om je antwoorden te ordenen
 
-For each response, you can create a function for the activity that will be shown to your user.
+Voor elk antwoord kun je een functie maken voor de activiteit die aan je gebruiker wordt getoond.
 
-This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} block.
+Hiermee wordt je code overzichtelijker, als je veel blokken hebt geplaatst in elk 'als'{:class='microbitlogic'} en 'anders als'{:class='microbitlogic'} blok.
 
-You could create three functions for the three responses your user is shown.
+Je kunt drie functies maken voor de drie antwoorden die je gebruiker te zien krijgt.
 
 \--- task ---
 
@@ -81,9 +81,9 @@ You could create three functions for the three responses your user is shown.
 
 \--- task ---
 
-Drag your response blocks into your newly created function blocks.
+Sleep je antwoordblokken naar je nieuwe functieblokken.
 
-Here is some example code from a function block:
+Hier is een voorbeeldcode van een functieblok:
 
 ```microbit
 function goodDay () {
@@ -96,37 +96,37 @@ function goodDay () {
 
 \--- /task ---
 
-You will need to call your function inside your event block to use it.
+Je moet je functie binnen je gebeurtenisblok aanroepen om deze te gebruiken.
 
 \--- task ---
 
-From the `Advanced` section of the Toolbox, drag out your `call`{:class='microbitfunctions'} blocks from the `Functions`{:class='microbitfunctions'} menu.
+Vanuit de `Geavanceerd` sectie van de Toolbox sleep je `aanroep`{:class='microbitfunctions'} blokken van het `Functies`{:class='microbitfunctions'} menu.
 
-Ensure you use the correct response call block.
+Zorg ervoor dat je het juiste antwoord aanroep blok gebruikt.
 
-Place these blocks inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks in your event.
+Plaats deze blokken in de `als`{:class='microbitlogic'} en `anders als`{:class='microbitlogic'} blokken in je gebeurtenis.
 
 \--- /task ---
 
-### Reset your program
+### Je programma opnieuw instellen
 
-Once a user has set their mood and completed a response, you can allow them reset the program and start again.
+Zodra een gebruiker zijn stemming heeft ingesteld en een antwoord heeft gegeven, kun je hem toestaan het programma te resetten en opnieuw te beginnen.
 
 \--- task ---
 
-From the `Input`{:class='microbitinput'} menu, drag out an event block you have not yet used in your project.
+Vanuit het `Invoer`{:class='microbitinput'} menu sleep je een gebeurtenis blok dat je nog niet hebt gebruikt in je project.
 
-Place it in your workspace.
+Plaats het in uw bewerkingspaneel.
 
 \--- /task ---
 
 \--- task ---
 
-From the `Music`{:class='microbitmusic'} menu, drag out a `stop all sounds`{:class='microbitmusic'} block.
+Vanuit het `Muziek`{:class='microbitmusic'} menu sleep je een `stop alle geluiden`{:class='microbitmusic'} blok.
 
-Place it inside your event block.
+Plaats het in je gebeurtenis blok.
 
-The `on logo pressed`{:class='microbitinput'} block has been used in this example.
+Het blok `bij logo ingedrukt`{:class='microbitinput'} is gebruikt in dit voorbeeld.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -138,9 +138,9 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 \--- task ---
 
-Duplicate your start-up screen blocks or start-up screen function.
+Dupliceer je startscherm blokken of de startscherm functie.
 
-Place it below the `stop all sounds`{:class='microbitmusic'} block.
+Plaats het onder het blok `stop alle geluiden`{:class='microbitmusic'}.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -151,18 +151,18 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 \--- /task ---
 
-### Test your program
+### Test je programma
 
 \--- task ---
 
-When the simulator restarts, use a gesture to choose your mood.
+Wanneer de simulator opnieuw opstart, gebruik dan een gebaar om je stemming te kiezen.
 
-Use your event to trigger your response.
+Gebruik je gebeurtenis om je antwoord te triggeren.
 
-Use your other event block to reset the program.
+Gebruik je andere gebeurtenis blok om het programma opnieuw in te stellen.
 
 \--- /task ---
 
 \[\[\[download-to-microbit]]]
 
-Next, it is time to check what you have learnt!
+Nu is het tijd om te kijken wat je hebt geleerd!
