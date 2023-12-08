@@ -1,51 +1,51 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 \--- question ---
 
 ***
 
-## legend: Question 1 of 3
+## legend: Vraag 1 van 3
 
-In your project, you showed your user instructions by using the `Basic`{:class='microbitbasic'} menu. Which block did you use?
+In je project heb je de gebruikersinstructies laten zien door het `Basis`{:class='microbitbasic'} menu te gebruiken. Welk blok heb je gebruikt?
 
 \--- choices ---
 
 - ( )
 
-`show icon`{:class='microbitbasic'}
+`toon pictogram`{:class='microbitbasic'}
 
 \--- feedback ---
-The `show icon`{:class='microbitbasic'} block displays icons to be shown to a user.
+Het `toon pictogram`{:class='microbitbasic'} blok laat pictogrammen zien die aan een gebruiker getoond moeten worden.
 \--- /feedback ---
 
 - ( )
 
-`show leds`{:class='microbitbasic'}
+`toon lichtjes`{:class='microbitbasic'}
 
 \--- feedback ---
-The `show leds`{:class='microbitbasic'} block allows you to display images and create animations for a user.
+Met het \`toon lichtjes'{:class='microbitbasic'} blok kun je afbeeldingen weergeven en animaties maken voor een gebruiker.
 \--- /feedback ---
 
 - (x)
 
-`show string`{:class='microbitbasic'}
+`toon tekens`{:class='microbitbasic'}
 
 \--- feedback ---
-Yes, this is the block used to display a message to your user!
+Ja, dit is het blok dat wordt gebruikt om een bericht weer te geven aan je gebruiker!
 \--- /feedback ---
 
 - ( )
 
-`show arrow`{:class='microbitbasic'}
+`toon pijl`{:class='microbitbasic'}
 
 \--- feedback ---
-The `show arrow`{:class='microbitbasic'} block can be used to display arrows to a user.
+Het `toon pijl`{:class='microbitbasic'} blok kan gebruikt worden om pijlen weer te geven aan een gebruiker.
 \--- /feedback ---
 
 \--- /choices ---
