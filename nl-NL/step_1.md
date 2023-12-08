@@ -1,44 +1,44 @@
-## You will make
+## Wat ga je maken
 
-You will create a program that checks what kind of day you or your friends have had and shows a response based on your choice.
+Je maakt een programma dat controleert welke dag jij of je vrienden hebben gehad en geeft een antwoord op basis van jouw keuze.
 
-You will:
+Je gaat:
 
-- Choose your mood for the day
-- Create responses for the mood
-- Test and debug your code
+- Je stemming voor de dag kiezen
+- Reacties maken voor elke stemming
+- Je code testen en fouten opsporen/oplossen
 
 \--- no-print ---
 
-### Get ideas 💭
+### Doe inspiratie op 💭
 
-Test these example projects to get some ideas.
+Bekijk deze voorbeeldprojecten om meer ideeën op te doen.
 
-⭐ Share your finished `How's your day?` project for a chance of it being featured here.
+⭐ Deel je voltooide 'Hoe is je dag'-project om kans te maken dat het hier wordt weergegeven.
 
 \--- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Melody mood checker
+### Melodie stemming checker
 
-This is a **melody mood checker** — for people who like music!
+Dit is een **melodie stemming checker** — voor mensen die van muziek houden!
 
-The program has three modes:
+Het programma heeft drie onderdelen:
 
-- Start-up screen
-- Choosing and setting your mood
-- Singing along to the melody played based on your mood
+- Startscherm
+- Je stemming kiezen en instellen
+- Meezingen met de melodie die wordt gespeeld op basis van jouw humeur
 
-1. Press Logo to reset the program
-2. Watch the start-up animation and instructions
-3. Use a gesture to choose your mood for the day
-4. Press Button A to set your mood and start the response
+1. Druk op Logo om het programma te resetten
+2. Bekijk de opstart animatie en instructies
+3. Gebruik een gebaar om je stemming te kiezen voor de dag
+4. Druk op knop A om je stemming vast te leggen en het antwoord te starten
 
 
 <div>
-[👀 See the code 👀](https://makecode.microbit.org/_CTYJm96d98sC){:target="_blank"}
+[👀 Bekijk de code 👀](https://makecode.microbit.org/_CTYJm96d98sC){:target="_blank"}
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_CTYJm96d98sC" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></div>
 
 </div>
@@ -50,27 +50,27 @@ The program has three modes:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Mood animator
+### Stemming animator
 
-Watch the start-up instructions, which tell you to use a tilt or shake gesture to match the mood shown on the LEDs:
+Bekijk de opstartinstructies, waarin staat dat je een kantel- of schudgebaar moet gebruiken om de stemming die op de LED's wordt weergegeven, aan te passen:
 
-- Tilt the micro:bit **right** to select a ‘Good’ mood, shown by a smiley face 🙂
-- Tilt the micro:bit **left** to select an ‘OK’ mood, shown by a neutral face 😐
-- **Shake** the micro:bit to select a ‘Not good’ mood, shown by a frowning face 🙁
+- Kantel de micro:bit **naar rechts** om een 'Goed' humeur te selecteren, weergegeven door een smiley 🙂
+- Kantel de micro:bit **naar links** om een 'OK'-stemming te selecteren, weergegeven door een neutraal gezicht 😐
+- **Schud** de micro:bit om een 'Niet zo goed' humeur te selecteren, wat blijkt uit een fronsend gezicht 🙁
 
-When you have chosen your mood with your tilt or shake gesture, you will see an up arrow **^** shown on the LEDs.
+Wanneer je je stemming hebt gekozen met een kantelen of schudden gebaar, zie je een pijl omhoog **^** weergegeven op de LED's.
 
-This means you should press the touch logo to set your mood.
+Dit betekent dat je op het touch-logo moet drukken om je stemming in te stellen.
 
-This will display an animated response to match your mood:
+Dit geeft een antwoord -in de vorm van een animatie- weer, dat overeenkomt met je humer:
 
-- A celebration dance to celebrate a 'Good' mood
-- An encouragement to smile in response to an 'OK' mood
-- A breathing animation to acknowledge a 'Not good' mood
+- Een dansje om een 'goed' humeur te vieren
+- Een aanmoediging om te glimlachen in reactie op een 'OK' stemming
+- Een 'adem' animatie om een 'niet zo'n goede' stemming te erkennen
 
 
 <div>
-[👀 See the code 👀](https://makecode.microbit.org/_iy5ghqMTE7ah){:target="_blank"}
+[👀 Bekijk de code 👀](https://makecode.microbit.org/_iy5ghqMTE7ah){:target="_blank"}
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iy5ghqMTE7ah" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
@@ -81,23 +81,23 @@ This will display an animated response to match your mood:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Graph that mood
+### Breng die stemming in kaart
 
-This **mood indicator** helps people keep track of their mood, and let others know how they're feeling.
+Deze **stemmingsindicator** helpt mensen hun stemming bij te houden en aan anderen te laten weten hoe ze zich voelen.
 
-The program has:
+Het programma heeft:
 
-- A start-up screen
-- Buttons to set the level of your mood
-- A graph, an emoji, and/or sounds to show how you are feeling
+- Een startscherm
+- Knoppen om het niveau van je stemming in te stellen
+- Een grafiek, een emoji, en/of geluiden om te laten zien hoe je je voelt
 
-1. Watch the start-up animation and instructions
-2. Use Button A each time you feel happy and Button B each time you feel sad
-3. Your mood will be displayed on a graph, and using an emoji
+1. Bekijk de opstart animatie en instructies
+2. Gebruik knop A elke keer dat je je gelukkig voelt en knop B elke keer dat je je verdrietig voelt
+3. Je humeur wordt weergegeven in een grafiek en met behulp van een emoji
 
 
 <div>
-[👀 See the code 👀](https://makecode.microbit.org/_UkC8pxJbC6Js){:target="_blank"}
+[👀 Bekijk de code 👀](https://makecode.microbit.org/_UkC8pxJbC6Js){:target="_blank"}
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_UkC8pxJbC6Js" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></div>
 
 </div>
