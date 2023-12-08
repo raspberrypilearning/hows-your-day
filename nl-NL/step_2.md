@@ -75,7 +75,7 @@ Je maakt dit in het `bij opstarten`{:class='microbitbasic'} blok van je nieuwe p
 
 --- task ---
 
-Vanuit het blokmenu Basis{:class='microbitbasic'} sleep je enkele blokken naar het 'bij opstarten'{:class='microbitbasic'} blok. De blokken die je kiest zijn afhankelijk van wat je wilt dat je gebruiker ziet wanneer het programma start.
+Vanuit het blokmenu `Basis`{:class='microbitbasic'} sleep je enkele blokken naar het 'bij opstarten'{:class='microbitbasic'} blok. De blokken die je kiest zijn afhankelijk van wat je wilt dat je gebruiker ziet wanneer het programma start.
 
 Je kunt een **pictogram**, een **animatie** of **tekst** laten zien.
 
@@ -172,7 +172,7 @@ input.onGesture(Gesture.Shake, function () {
 
 Je moet ook een getal gebruiken om elke stemming weer te geven.
 
-'Goede dag' kan bijvoorbeeld '1' zijn, 'Ok dag' kan '2' zijn en 'Niet zo'n goede dag' kan '3' zijn.
+`Goede dag` kan bijvoorbeeld `1` zijn, `Ok dag` kan `2` zijn en `Niet zo'n goede dag` kan `3` zijn.
 
 Verander de `0` naar `1` in je `stel stemming in op`{:class='microbitvariables'} variabele zodat deze overeenkomt met de juiste stemming.
 
