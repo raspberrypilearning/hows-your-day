@@ -1,0 +1,22 @@
+---
+title: Hoe is je dag?
+hero_image: images/banner.png
+description: Bouw een stemming checker programma dat een andere reactie laat zien op basis van hoe je dag was.
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Inleiding
+  - title: Startscherm
+  - title: Maak een antwoord
+  - title: Meer antwoorden maken
+  - title: Snelle quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Verbeter je project
+  - title: Delen
+  - title: Wat kun je verder nog doen?
