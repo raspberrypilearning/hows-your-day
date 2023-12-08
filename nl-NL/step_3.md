@@ -1,45 +1,45 @@
-## Create a response
+## Maak een antwoord
 
-Well done, you have created the moods for your user to choose from.
-You will now use an event to trigger a response.
+Goed gedaan, je hebt de stemmingen gemaakt waaruit je gebruiker kan kiezen.
+Je gaat nu een gebeurtenis gebruiken om een antwoord te vragen.
 
-### Set your mood
+### Stel je stemming in
 
 \--- collapse ---
 
 ***
 
-## title: Why use events?
+## title: Waarom gebeurtenissen gebruiken?
 
-Events are a good choice if you want your user to interact with the program.
+Gebeurtenissen zijn een goede keuze als je wilt dat je gebruiker interactie heeft met het programma.
 
-For example, in the karaoke mood checker, gestures were used to choose from a range of moods, and then the user pressed Button A to set their choice.
+Bijvoorbeeld in de karaoke stemmingschecker werden gebaren gebruikt om te kiezen uit verschillende stemmingen, en vervolgens drukte de gebruiker op knop A om een keuze in te stellen.
 
 \--- /collapse ---
 
 \--- task ---
 
-#### Using events
+#### Het gebruik van gebeurtenissen
 
-Add any event block of your choice into your workspace.
+Kies de blokken van de gebeurtenissen en voeg ze toe aan je bewerkingspaneel.
 
 \[\[\[microbit-buttons]]]
 
-For example, in the mood animator, the `on logo pressed`{:class='microbitinput'} block is used.
+Bijvoorbeeld, in de stemmingsanimator wordt het blok `bij logo ingedrukt`{:class='microbitinput'} gebruikt.
 
 \--- /task ---
 
-### Create your first response
+### Maak je eerste antwoord
 
-Now you have chosen an event block, you need to program a response inside it.
+Nu je een gebeurtenisblok hebt gekozen, ga je een antwoord erin programmeren.
 
 \--- task ---
 
-Drag an `if`{:class='microbitlogic'} block from the `Logic`{:class='microbitlogic'} menu.
+Sleep een `als`{:class='microbitlogic'} blok uit het `Logisch`{:class='microbitlogic'} menu.
 
-Place it inside your event block.
+Plaats het in je gebeurtenis blok.
 
-In this example, the `on button`{:class='microbitinput'} block has been used.
+In dit voorbeeld is het `wanneer knop wordt ingedrukt`{:class='microbitinput'} blok gebruikt.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -53,23 +53,23 @@ input.onButtonPressed(Button.A, function () {
 
 \--- task ---
 
-Open the `Logic`{:class='microbitlogic'} menu and get the `0 = 0`{:class='microbitlogic'} block.
+Open het `Logisch`{:class='microbitlogic'} menu en selecteer het `0 = 0`{:class='microbitlogic'} blok.
 
-Place it inside the `true`{:class='microbitlogic'} part of the `if`{:class='microbitlogic'} statement.
-
-\--- /task ---
-
-\--- task ---
-
-Drag your `mood`{:class='microbitvariables'} variable block and place it inside the `0` on the left of the `0 = 0`{:class='microbitlogic'} block.
+Plaats het in het `waar`{:class='microbitlogic'} deel van de `als`{:class='microbitlogic'} verklaring.
 
 \--- /task ---
 
 \--- task ---
 
-Change the `0` on the right of the `0 = 0`{:class='microbitlogic'} block to `1`.
+Sleep je `stemming`{:class='microbitvariables'} variabele blok en plaats het in het `0` blok aan de linkerkant van het `0 = 0`{:class='microbitlogic'} blok.
 
-Your blocks of code could look like this:
+\--- /task ---
+
+\--- task ---
+
+Verander het `0` blok aan de rechterkant`0 = 0`{:class='microbitlogic'} naar `1`.
+
+Je code blokken zouden er als volgt uit moeten zien:
 
 ```microbit
 input.onButtonPressed(Button.AB, function () {
@@ -83,9 +83,9 @@ input.onButtonPressed(Button.AB, function () {
 
 \--- task ---
 
-Add a response block inside the `if`{:class='microbitlogic'} block.
+Voeg een antwoordblok toe binnen het blok `als`{:class='microbitlogic'}.
 
-You can show an icon or an animation or play some music.
+Je kunt een pictogram of een animatie weergeven of wat muziek afspelen.
 
 \[\[\[microbit-icons]]]
 \[\[\[microbit-animation]]]
@@ -93,12 +93,12 @@ You can show an icon or an animation or play some music.
 
 \--- /task ---
 
-### Test your program
+### Test je programma
 
 \--- task ---
 
-When the simulator restarts, use a gesture to choose your mood.
+Wanneer de simulator opnieuw opstart, gebruik dan een gebaar om je stemming te kiezen.
 
-Use your event to trigger your response.
+Gebruik je gebeurtenis om je antwoord te triggeren.
 
 \--- /task ---
