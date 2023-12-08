@@ -1,60 +1,60 @@
-## Start-up screen
+## Startscherm
 
-You may want your friends and family to share and use your mood checker.
+Misschien wil je dat je vrienden en familie je stemmingschecker delen en gebruiken.
 
-This means you need to create a start-up screen to show some instructions for how to use it.
+Dit betekent dat je een startscherm moet maken om wat instructies te tonen voor het gebruik ervan.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-  <span style="color: #0faeb0">**User experience**</span> design is an important part of creating a product. It means thinking about ways to make your programs easy to understand and use.
+  Het ontwerpen van de <span style="color: #0faeb0">**gebruikerservaring**</span> is een belangrijk onderdeel van het maken van een product. Het betekent dat je nadenkt over manieren hoe je je programma's zo kunt maken dat ze gemakkelijk te begrijpen en te gebruiken zijn.
 </p>
 
-### Choose your theme
+### Kies je thema
 
 \--- task ---
 
-Think about when you've come home from school or from an outing and your family or friends have asked how your day went. What responses did you give?
+Beeld je eens in dat je thuiskomt van school of van een dagje uit en je familie of vrienden hebben vragen hoe je dag was. Welke antwoorden heb je dan al eens gegeven?
 
-You might have said:
+Je hebt misschien gezegd:
 
-- I had a good day
-- I had an okay day
-- I didn't have a good day
+- Ik heb een goede dag gehad
+- Ik heb een ok dag gehad
+- Ik heb geen goede dag gehad
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-  <span style="color: #0faeb0">**Moods**</span> are the way you feel on different days or at different times of the day. Sometimes you might feel really happy, like when you're playing with your favourite toys or spending time with friends. Other times, you might feel a little bit sad or grumpy. Moods can change throughout the day, and it's okay to have different moods.
+  <span style="color: #0faeb0">**Stemmingen**</span> zijn de manier waarop je je voelt op verschillende dagen of op verschillende tijdstippen van de dag. Soms zou je je heel blij kunnen voelen, bijvoorbeeld wanneer je speelt met je favoriete speelgoed of tijd doorbrengt met vrienden. Andere keren voel je je misschien een beetje verdrietig of chagrijnig. Stemmingen kunnen gedurende de dag veranderen, en het is prima om verschillende stemmingen te hebben.
 </p>
 
-Based on the mood your user chooses, you can create responses that use:
+Op basis van de stemming die jouw gebruiker kiest, kunt je antwoorden maken die gebruik maken van:
 
-- Text to show the user a message
-- Icons and animations to cheer them up
-- Melodies and sounds for calmness or excitement
+- Tekst om de gebruiker een bericht te laten zien
+- Pictogrammen en animaties om ze op te vrolijken
+- Melodieën en geluiden voor kalmte of opwinding
 
 \--- /task ---
 
-### Create your project
+### Maak je project
 
 \--- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="\_blank"}.
+Open de MakeCode editor in [makecode.microbit.org](https://makecode.microbit.org){:target="\_blank"}.
 
 \--- collapse ---
 
 ***
 
-## title: Offline version of the editor
+## title: Offline versie van de editor
 
-There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="\_blank"}.
+Er is ook een [downloadbare versie van de MakeCode-editor](https://makecode.microbit.org/offline-app){:target="\_blank"}.
 
 \--- /collapse ---
 
 \--- /task ---
 
-Once the editor is open, create a new project and give your project a name.
+Zodra de editor is geopend, moet je een nieuw project aanmaken en je project een naam geven.
 
 \--- task ---
 
-Click on the **New Project** button.
+Klik op de knop **Nieuw Project**.
 
 <img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
 
@@ -62,23 +62,23 @@ Click on the **New Project** button.
 
 \--- task ---
 
-**Tip:** Give your project a helpful name that relates to the program you’re creating. This will make it easier to find if you create other projects on MakeCode.
+**Tip:** Geef je project een logische naam die betrekking heeft op het programma dat je aan het maken bent. Dit maakt het gemakkelijker om het terug te vinden als je nog andere projecten aanmaakt op MakeCode.
 
 \--- /task ---
 
-### Make your start-up screen
+### Maak je startscherm
 
-Create a start-up screen that shows your user what your device is for and how to use it.
+Maak een startscherm dat aan je gebruiker laat zien waar je apparaat voor gemaakt is en hoe je het gebruikt.
 
-You will make this in the `on start`{:class='microbitbasic'} block of your new project.
+Je maakt dit in het `bij opstarten`{:class='microbitbasic'} blok van je nieuwe project.
 
 \--- task ---
 
-Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='microbitbasic'} block. The blocks you choose will depend on what you want your user to see when the program starts.
+Vanuit het blokmenu Basis{:class='microbitbasic'} sleep je enkele blokken naar het 'bij opstarten'{:class='microbitbasic'} blok. De blokken die je kiest zijn afhankelijk van wat je wilt dat je gebruiker ziet wanneer het programma start.
 
-You could show an **icon**, make an **animation**, or display **text**.
+Je kunt een **pictogram**, een **animatie** of **tekst** laten zien.
 
-For instance, it could show a heart.
+Het zou bijvoorbeeld een hart kunnen laten zien.
 
 ```microbit
 basic.showIcon(IconNames.Heart)
@@ -90,7 +90,7 @@ basic.showIcon(IconNames.Heart)
 
 \[\[\[microbit-text]]]
 
-If your start-up screen is complicated, you might want to organise the code into a **function**.
+Als het startscherm ingewikkeld is, kun je de code overzichtelijker maken met behulp van een **functie**.
 
 \[\[\[microbit-function]]]
 
@@ -98,56 +98,56 @@ If your start-up screen is complicated, you might want to organise the code into
 
 \--- task ---
 
-Test your screen, show it to a friend and see if they know what the program does.
+Test je scherm, laat het aan een vriend of vriendin zien en kijk of ze begrijpen wat het programma doet.
 
 \--- /task ---
 
-### Select a mood
+### Selecteer een stemming
 
-Your program should the ask user about their day and let them choose from set options.
+Je programma gaat de gebruiker vragen over zijn dag en laat hem kiezen uit enkele opties.
 
 \--- task ---
 
-Add instructions to the `on start`{:class='microbitbasic'} block by using `show string`{:class='microbitbasic'}.
+Voeg instructies toe aan het `bij opstarten`{:class='microbitbasic'} blok door `toon tekens`{:class='microbitbasic'} te gebruiken.
 
-The instructions should tell the user how to select each mood.
+De instructies moeten de gebruiker vertellen hoe hij een stemming kan selecteren.
 
-This will help the user know what gestures to use to input their mood.
+Dit helpt de gebruiker om te weten welke gebaren hij moet gebruiken om zijn stemming in te vullen.
 
 \[\[\[microbit-text]]]
 
-Remember: Text on a micro:bit takes a long time to scroll, so keep your text short.
+Let op: het scrollen van tekst op een micro:bit duurt lang, dus houd je tekst kort.
 
 \--- /task ---
 
 \--- task ---
 
-Add icons to represent each mood.
+Voeg pictogrammen toe om elke stemming weer te geven.
 
 \[\[\[microbit-icons]]]
 
 \--- /task ---
 
-### Choose three moods
+### Kies drie stemmingen
 
 \--- task ---
 
-You now need to add gestures for each mood.
-You need to add one gesture each for:
+Je moet nu voor elke stemming gebaren toevoegen.
+Je moet een gebaar toevoegen voor:
 
-- Good day
-- Okay day
-- Bad day
+- Goede dag
+- Ok dag
+- Niet zo'n goede dag
 
 \[\[\[microbit-gesture-trigger]]]
 
 \--- /task ---
 
-### Create a variable
+### Maak een variabele
 
 \--- task ---
 
-Create a variable called `mood`.
+Maak een variabele met de naam `stemming`.
 
 \[\[\[microbit-create-variables]]]
 
@@ -155,9 +155,9 @@ Create a variable called `mood`.
 
 \--- task ---
 
-Add the variable to your `gesture`{:class='microbitinput'} block.
+Voeg de variabele toe aan je `gebaar`{:class='microbitinput'} blok.
 
-Here is an example of the code blocks you could use:
+Hier is een voorbeeld van de codeblokken die je zou kunnen gebruiken:
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -169,11 +169,11 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-You will also need to use a number to represent each mood.
+Je moet ook een getal gebruiken om elke stemming weer te geven.
 
-For example, `Good day` could be `1`, `Okay day` could be `2`, and `Bad day` could be `3`.
+'Goede dag' kan bijvoorbeeld '1' zijn, 'Ok dag' kan '2' zijn en 'Niet zo'n goede dag' kan '3' zijn.
 
-Change the `0` to `1` in your `set mood`{:class='microbitvariables'} variable to match the correct mood.
+Verander de `0` naar `1` in je `stel stemming in op`{:class='microbitvariables'} variabele zodat deze overeenkomt met de juiste stemming.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -185,13 +185,13 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-You could show an **icon** or an **animation** to represent each mood. You could also draw something using `show leds`{:class='microbitbasic'}.
+Je kunt een **pictogram** of een **animatie** tonen om elke stemming weer te geven. Je kunt ook iets tekenen met `toon lichtjes`{:class='microbitbasic'}.
 
 \[\[\[microbit-icons]]]
 
 \[\[\[microbit-animation]]]
 
-Your event block should now look something like this (the exact blocks may be different):
+Je gebeurtenis blok zou er nu zo uit moeten zien (de precieze blokken kunnen verschillend zijn):
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -210,17 +210,17 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-Repeat these steps twice so you have blocks for each gesture.
+Herhaal deze stappen twee keer zodat je blokken hebt voor elk gebaar.
 
 \--- /task ---
 
 \--- task ---
 
-In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to set their mood. In our example, we've told them to press `Button A`.
+Vertel de gebruiker in je `gebaar`{:class='microbitinput'} blok een `gebeurtenis` te gebruiken om zijn of haar stemming te bepalen. In ons voorbeeld hebben we ze verteld dat ze op 'Knop A' moeten drukken.
 
 \[\[\[microbit-text]]]
 
-For a better user experience, add a `pause`{:class='microbitbasic'} and a `clear screen`{:class='microbitbasic'} block between the mood icon and the instruction block.
+Voor een betere gebruikerservaring, voeg een `pauzeer (ms)`{:class='microbitbasic'} en een `wis scherm`{:class='microbitbasic'} blok toe tussen het stemmingspictogram en het instructieblok.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -240,12 +240,12 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- /task ---
 
-### Test your program
+### Test je programma
 
 \--- task ---
 
-When the simulator restarts, check that you're happy with the instructions, icons, and animation for your start-up screen.
+Als de simulator opnieuw opstart, controleer dan of je tevreden bent met de instructies, pictogrammen en animaties voor je startscherm.
 
-Check that when you use a gesture such as a `on tilt right`{:class='microbitinput'} block, the correct mood icon or animation is shown.
+Controleer of wanneer je een gebaar zoals een `naar rechts kantelen`{:class='microbitinput'} blok gebruikt, het juiste stemmingspictogram of animatie wordt getoond.
 
 \--- /task ---
