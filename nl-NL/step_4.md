@@ -116,7 +116,7 @@ Zodra een gebruiker zijn stemming heeft ingesteld en een antwoord heeft gegeven,
 
 Vanuit het `Invoer`{:class='microbitinput'} menu sleep je een gebeurtenis blok dat je nog niet hebt gebruikt in je project.
 
-Plaats het in uw bewerkingspaneel.
+Plaats het in je bewerkingspaneel.
 
 \--- /task ---
 
