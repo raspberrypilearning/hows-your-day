@@ -55,7 +55,7 @@ input.onButtonPressed(Button.A, function () {
 
 Open het `Logisch`{:class='microbitlogic'} menu en selecteer het `0 = 0`{:class='microbitlogic'} blok.
 
-Plaats het in het `waar`{:class='microbitlogic'} deel van de `als`{:class='microbitlogic'} verklaring.
+Plaats het in het `waar`{:class='microbitlogic'} deel van de `als`{:class='microbitlogic'} instructie.
 
 \--- /task ---
 
