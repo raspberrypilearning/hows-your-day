@@ -7,7 +7,7 @@ Als je het pad [Introductie micro:bit](https://projects.raspberrypi.org/en/raspb
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Piep test
+### Pieptest
 
 Klik bovenaan op het micro:bit-logo om de simulator opnieuw te starten!
 
