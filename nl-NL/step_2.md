@@ -24,7 +24,7 @@ Je hebt misschien gezegd:
   <span style="color: #0faeb0">**Stemmingen**</span> zijn de manier waarop je je voelt op verschillende dagen of op verschillende tijdstippen van de dag. Soms zou je je heel blij kunnen voelen, bijvoorbeeld wanneer je speelt met je favoriete speelgoed of tijd doorbrengt met vrienden. Andere keren voel je je misschien een beetje verdrietig of chagrijnig. Stemmingen kunnen gedurende de dag veranderen, en het is prima om verschillende stemmingen te hebben.
 </p>
 
-Op basis van de stemming die jouw gebruiker kiest, kunt je antwoorden maken die gebruik maken van:
+Op basis van de stemming die jouw gebruiker kiest, kun je antwoorden maken die gebruik maken van:
 
 - Tekst om de gebruiker een bericht te laten zien
 - Pictogrammen en animaties om ze op te vrolijken
@@ -54,7 +54,7 @@ Zodra de editor is geopend, moet je een nieuw project aanmaken en je project een
 
 \--- task ---
 
-Klik op de knop **Nieuw Project**.
+Klik op de knop **Nieuw project**.
 
 <img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
 
