@@ -7,7 +7,7 @@ Als je het pad [Introductie micro:bit](https://projects.raspberrypi.org/nl-NL/ra
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Piep test
+### Pieptest
 
 Klik bovenaan op het micro:bit-logo om de simulator opnieuw te starten!
 
@@ -41,5 +41,6 @@ Dit project werd vertaald door vrijwilligers:
 
 Iny van Beuningen
 Jeroen Wernsen
+Robert-Jan Kempenaar
 
 Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
