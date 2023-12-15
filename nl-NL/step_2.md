@@ -235,7 +235,7 @@ input.onGesture(Gesture.Shake, function () {
         `)
     basic.pause(100)
     basic.clearScreen()
-    basic.showString("Press A")
+    basic.showString("Druk op A")
 })
 ```
 
