@@ -4,7 +4,7 @@
 legend: Vraag 3 van 3
 ---
 
-In je project heb je deze blokken in het Geavanceerde menu gebruikt om je blokken code overzichtelijker te maken. Je moest ze ook aanroepen. Hoe noemen deze blokken?
+In je project heb je deze blokken in het Geavanceerde menu gebruikt om je blokken code overzichtelijker te maken. Je moest ze ook aanroepen. Hoe noemen we deze blokken?
 
 --- choices ---
 
@@ -18,7 +18,7 @@ De gebaren blokken uit het `Invoer`{:class='microbitinput'} menu zijn gebruikt o
 
 - (x)
 
-`Functions`{:class='microbitfunctions'}
+`Functies`{:class='microbitfunctions'}
 
 --- feedback ---
 Goed gedaan! `Functies`{:class='microbitfunctions'} werden gebruikt om je code netjes te maken en een specifieke taak te voltooien.
@@ -26,7 +26,7 @@ Goed gedaan! `Functies`{:class='microbitfunctions'} werden gebruikt om je code n
 
 - ( )
 
-`Music`{:class='microbitmusic'}
+`Muziek`{:class='microbitmusic'}
 
 --- feedback ---
 `Muziek`{:class='microbitmusic'} blokken zijn gebruikt bij het maken van reacties, maar niet om je code te organiseren.

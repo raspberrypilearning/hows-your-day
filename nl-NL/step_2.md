@@ -55,7 +55,7 @@ Zodra de editor is geopend, moet je een nieuw project aanmaken en je project een
 
 --- task ---
 
-Klik op de knop **Nieuw Project**.
+Klik op de knop **Nieuw project**.
 
 <img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
 

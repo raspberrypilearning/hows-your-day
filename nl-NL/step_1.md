@@ -1,6 +1,6 @@
 ## Wat ga je maken
 
-Je maakt een programma dat controleert welke dag jij of je vrienden hebben gehad en geeft een antwoord op basis van jouw keuze.
+Je maakt een programma dat controleert wat voor dag jij of je vrienden hebben gehad en geeft een antwoord op basis van jouw keuze.
 
 Je gaat:
 
@@ -62,7 +62,7 @@ Wanneer je je stemming hebt gekozen met een kantelen of schudden gebaar, zie je 
 
 Dit betekent dat je op het touch-logo moet drukken om je stemming in te stellen.
 
-Dit geeft een antwoord -in de vorm van een animatie- weer, dat overeenkomt met je humer:
+Dit geeft een antwoord -in de vorm van een animatie- weer, dat overeenkomt met je humeur:
 
 - Een dansje om een 'goed' humeur te vieren
 - Een aanmoediging om te glimlachen in reactie op een 'OK' stemming
