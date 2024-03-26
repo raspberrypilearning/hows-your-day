@@ -15,7 +15,7 @@ steps:
 - title: Create more responses
   completion:
     - internal
-- title: Quick quiz
+- title: Reflection
   knowledge_quiz:
     path: quiz1
     version: 1
