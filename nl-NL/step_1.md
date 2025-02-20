@@ -36,10 +36,10 @@ Het programma heeft drie onderdelen:
 3. Gebruik een gebaar om je stemming te kiezen voor de dag
 4. Druk op knop A om je stemming vast te leggen en het antwoord te starten
 
-
+</div>
 <div>
 [👀 Bekijk de code 👀](https://makecode.microbit.org/_CTYJm96d98sC){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_CTYJm96d98sC" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></div>
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_CTYJm96d98sC" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
 
@@ -68,7 +68,7 @@ Dit geeft een antwoord -in de vorm van een animatie- weer, dat overeenkomt met j
 - Een aanmoediging om te glimlachen in reactie op een 'OK' stemming
 - Een 'adem' animatie om een 'niet zo'n goede' stemming te erkennen
 
-
+</div>
 <div>
 [👀 Bekijk de code 👀](https://makecode.microbit.org/_iy5ghqMTE7ah){:target="_blank"}
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_iy5ghqMTE7ah" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
@@ -95,10 +95,10 @@ Het programma heeft:
 2. Gebruik knop A elke keer dat je je gelukkig voelt en knop B elke keer dat je je verdrietig voelt
 3. Je humeur wordt weergegeven in een grafiek en met behulp van een emoji
 
-
+</div>
 <div>
 [👀 Bekijk de code 👀](https://makecode.microbit.org/_UkC8pxJbC6Js){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_UkC8pxJbC6Js" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></div>
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_UkC8pxJbC6Js" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
 
