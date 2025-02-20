@@ -36,15 +36,15 @@ Op basis van de stemming die jouw gebruiker kiest, kun je antwoorden maken die g
 
 \--- task ---
 
-Open de MakeCode editor in [makecode.microbit.org](https://makecode.microbit.org){:target="\_blank"}.
+Open de MakeCode editor in [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 \--- collapse ---
 
-***
+---
 
 ## title: Offline versie van de editor
 
-Er is ook een [downloadbare versie van de MakeCode-editor](https://makecode.microbit.org/offline-app){:target="\_blank"}.
+Er is ook een [downloadbare versie van de MakeCode-editor](https://makecode.microbit.org/offline-app){:target="_blank"}.
 
 \--- /collapse ---
 
@@ -84,15 +84,15 @@ Het zou bijvoorbeeld een hart kunnen laten zien.
 basic.showIcon(IconNames.Heart)
 ```
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
 Als het startscherm ingewikkeld is, kun je de code overzichtelijker maken met behulp van een **functie**.
 
-\[\[\[microbit-function]]]
+[[[microbit-function]]]
 
 \--- /task ---
 
@@ -114,7 +114,7 @@ De instructies moeten de gebruiker vertellen hoe hij een stemming kan selecteren
 
 Dit helpt de gebruiker om te weten welke gebaren hij moet gebruiken om zijn stemming in te vullen.
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
 Let op: het scrollen van tekst op een micro:bit duurt lang, dus houd je tekst kort.
 
@@ -124,7 +124,7 @@ Let op: het scrollen van tekst op een micro:bit duurt lang, dus houd je tekst ko
 
 Voeg pictogrammen toe om elke stemming weer te geven.
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
 \--- /task ---
 
@@ -139,7 +139,7 @@ Je moet een gebaar toevoegen voor:
 - Ok dag
 - Niet zo'n goede dag
 
-\[\[\[microbit-gesture-trigger]]]
+[[[microbit-gesture-trigger]]]
 
 \--- /task ---
 
@@ -149,7 +149,7 @@ Je moet een gebaar toevoegen voor:
 
 Maak een variabele met de naam `stemming`.
 
-\[\[\[microbit-create-variables]]]
+[[[microbit-create-variables]]]
 
 \--- /task ---
 
@@ -187,9 +187,9 @@ input.onGesture(Gesture.Shake, function () {
 
 Je kunt een **pictogram** of een **animatie** tonen om elke stemming weer te geven. Je kunt ook iets tekenen met `toon lichtjes`{:class='microbitbasic'}.
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
 Je gebeurtenis blok zou er nu zo uit moeten zien (de precieze blokken kunnen verschillend zijn):
 
@@ -218,7 +218,7 @@ Herhaal deze stappen twee keer zodat je blokken hebt voor elk gebaar.
 
 Vertel de gebruiker in je `gebaar`{:class='microbitinput'} blok een `gebeurtenis` te gebruiken om zijn of haar stemming te bepalen. In ons voorbeeld hebben we ze verteld dat ze op 'Knop A' moeten drukken.
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
 Voor een betere gebruikerservaring, voeg een `pauzeer (ms)`{:class='microbitbasic'} en een `wis scherm`{:class='microbitbasic'} blok toe tussen het stemmingspictogram en het instructieblok.
 
