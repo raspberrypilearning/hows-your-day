@@ -7,7 +7,7 @@ You will now use an event to trigger a response.
 
 \--- collapse ---
 
-***
+---
 
 ## title: Why use events?
 
@@ -23,7 +23,7 @@ For example, in the karaoke mood checker, gestures were used to choose from a ra
 
 Add any event block of your choice into your workspace.
 
-\[\[\[microbit-buttons]]]
+[[[microbit-buttons]]]
 
 For example, in the mood animator, the `on logo pressed`{:class='microbitinput'} block is used.
 
@@ -87,9 +87,9 @@ Add a response block inside the `if`{:class='microbitlogic'} block.
 
 You can show an icon or an animation or play some music.
 
-\[\[\[microbit-icons]]]
-\[\[\[microbit-animation]]]
-\[\[\[microbit-playing-sounds]]]
+[[[microbit-icons]]]
+[[[microbit-animation]]]
+[[[microbit-playing-sounds]]]
 
 \--- /task ---
 
