@@ -1,36 +1,36 @@
-## What next?
+## Τι υπάρχει στη συνέχεια;
 
-If you are following the [Introduction to micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro) path, you can move on to the [Active assistant](https://projects.raspberrypi.org/en/projects/active-assistant) project. In this project, you will make an assistant that helps you when you do your favourite type of exercise.
+Αν ακολουθείς την [Εισαγωγή στο micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro) διαδρομή, μπορείς να προχωρήσεις στο έργο [Ενεργός βοηθός](https://projects.raspberrypi.org/en/projects/active-assistant). Σε αυτό το έργο, θα φτιάξεις έναν βοηθό που σε βοηθά όταν κάνεις το αγαπημένο σου είδος άσκησης.
 
 \--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-### Bleep test
+### Τεστ Μπιπ
 
-Click the micro:bit logo at the top to restart the simulator!
+Κάνε κλικ στο λογότυπο micro:bit στο επάνω μέρος για επανεκκίνηση του προσομοιωτή!
 
-This is a **bleep test** for people who like running!
+Αυτό είναι ένα **τεστ μπιπ** για άτομα που τους αρέσει το τρέξιμο!
 
-The assistant has three modes:
+Ο βοηθός έχει τρεις λειτουργίες:
 
-- Start-up animation
-- The activity
-- Results
+- Κινούμενο σχέδιο εκκίνησης
+- Η δραστηριότητα
+- Αποτελέσματα
 
-1. Press the micro:bit logo at the top to reset the program
-2. Watch the start-up animation and instructions
-3. Press B to start the activity
-4. Wait for a few bleeps and then press B to see the results!
+1. Πάτα το λογότυπο micro:bit στο επάνω μέρος για επανεκκίνηση του προγράμματος
+2. Παρακολούθησε το κινούμενο σχέδιο εκκίνησης και τις οδηγίες
+3. Πάτα το B για να ξεκινήσει η δραστηριότητα
+4. Περίμενε για μερικά μπιπ και μετά πάτα το B για να δεις τα αποτελέσματα!
 
-
+</div>
 <div>
-[👀 See the code 👀](https://makecode.microbit.org/S44727-82649-75784-15537){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=S44727-82649-75784-15537" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></div>
+[👀 Δες τον κώδικα 👀](https://makecode.microbit.org/S44727-82649-75784-15537){:target="_blank"}
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=S44727-82649-75784-15537" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
 
 \--- /no-print ---
 
-If you want to have more fun exploring micro:bit, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?hardware%5B%5D=microbit).
+Εάν θέλεις να διασκεδάσεις περισσότερο εξερευνώντας το micro:bit, τότε μπορείς να δοκιμάσεις οποιοδήποτε από [αυτά τα έργα](https://projects.raspberrypi.org/en/projects?hardware%5B%5D=microbit).
