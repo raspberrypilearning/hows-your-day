@@ -7,7 +7,7 @@ Je gaat nu een gebeurtenis gebruiken om een antwoord te vragen.
 
 \--- collapse ---
 
-***
+---
 
 ## title: Waarom gebeurtenissen gebruiken?
 
@@ -23,7 +23,7 @@ Bijvoorbeeld in de karaoke stemmingschecker werden gebaren gebruikt om te kiezen
 
 Kies de blokken van de gebeurtenissen en voeg ze toe aan je bewerkingspaneel.
 
-\[\[\[microbit-buttons]]]
+[[[microbit-buttons]]]
 
 Bijvoorbeeld, in de stemmingsanimator wordt het blok `bij logo ingedrukt`{:class='microbitinput'} gebruikt.
 
@@ -87,9 +87,9 @@ Voeg een antwoordblok toe binnen het blok `als`{:class='microbitlogic'}.
 
 Je kunt een pictogram of een animatie weergeven of wat muziek afspelen.
 
-\[\[\[microbit-icons]]]
-\[\[\[microbit-animation]]]
-\[\[\[microbit-playing-sounds]]]
+[[[microbit-icons]]]
+[[[microbit-animation]]]
+[[[microbit-playing-sounds]]]
 
 \--- /task ---
 
