@@ -8,7 +8,7 @@ Add more responses to your `on button`{:class='microbitinput'} block for the oth
 
 Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to add `else if`{:class='microbitlogic'} blocks.
 
-\[\[\[microbit-making-choices]]]
+[[[microbit-making-choices]]]
 
 \--- /task ---
 
@@ -22,27 +22,27 @@ Here are some reminders of things you have already done in the Explore projects 
 
 #### Use the LEDs
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
-\[\[\[microbit-plot-graph]]]
+[[[microbit-plot-graph]]]
 
 #### Use sounds
 
-\[\[\[microbit-playing-sounds]]]
+[[[microbit-playing-sounds]]]
 
-\[\[\[microbit-mic]]]
+[[[microbit-mic]]]
 
-\[\[\[microbit-volume]]]
+[[[microbit-volume]]]
 
 #### Other
 
-\[\[\[microbit-timer]]]
+[[[microbit-timer]]]
 
-\[\[\[microbit-counting]]]
+[[[microbit-counting]]]
 
 Have a look over the projects you have made throughout the path for inspiration for your responses.
 
@@ -75,7 +75,7 @@ You could create three functions for the three responses your user is shown.
 
 \--- task ---
 
-\[\[\[microbit-function]]]
+[[[microbit-function]]]
 
 \--- /task ---
 
@@ -163,6 +163,6 @@ Use your other event block to reset the program.
 
 \--- /task ---
 
-\[\[\[download-to-microbit]]]
+[[[download-to-microbit]]]
 
 Next, it is time to check what you have learnt!
