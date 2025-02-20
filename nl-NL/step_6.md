@@ -20,9 +20,9 @@ Dit is een verbeterde versie van een van de voorbeeldprogramma's.
 2. Wanneer de gebeurtenisknop wordt ingedrukt om de stemming in te stellen, wordt de stemming ook geregistreerd
 3. De gegevens van sensoringangen, zoals geluids-, licht- en temperatuurniveaus, worden vastgelegd (geluid is niet beschikbaar voor V1-gebruikers). Dit stelt de gebruiker in staat om te controleren wat in zijn omgeving zijn stemming kan beïnvloeden.
 
-
+</div>
 <div>
 [👀 Bekijk de code 👀](https://makecode.microbit.org/_AaPJpHeT0bXP){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_AaPJpHeT0bXP" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></div>
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_AaPJpHeT0bXP" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
