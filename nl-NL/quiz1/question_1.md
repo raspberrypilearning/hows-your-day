@@ -8,7 +8,7 @@ Veel plezier!
 
 \--- question ---
 
-***
+---
 
 ## legend: Vraag 1 van 3
 
