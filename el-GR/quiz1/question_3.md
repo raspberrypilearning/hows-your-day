@@ -1,35 +1,35 @@
 \--- question ---
 
-***
+---
 
-## legend: Question 3 of 3
+## legend: Ερώτηση 3 από 3
 
-In your project you used these blocks from the Advanced menu to tidy up your blocks of code. You also had to call them. What are these blocks called?
+Στο έργο σου χρησιμοποίησες αυτά τα μπλοκ από το μενού Για προχωρημένους για να τακτοποιήσεις τα μπλοκ κώδικα. Έπρεπε επίσης να καλέσεις τις συναρτήσεις. Πώς καλούνται αυτά τα μπλοκ;
 
 \--- choices ---
 
 - ( )
 
-`Input`{:class='microbitinput'}
+`Είσοδος`{:class='microbitinput'}
 
-\--- feedback ---
-The gesture blocks from the `Input`{:class='microbitinput'} menu were used to choose the mood. Event blocks were also used to set the moood.
+\--- ανατροφοδότηση ---
+Τα μπλοκ χειρονομιών από το μενού `Είσοδος`{:class='microbitinput'} χρησιμοποιήθηκαν για την επιλογή της διάθεσης. Μπλοκ συμβάντων χρησιμοποιήθηκαν επίσης για να ορίσουν τη διάθεση.
 \--- /feedback ---
 
 - (x)
 
-`Functions`{:class='microbitfunctions'}
+`Συναρτήσεις`{:class='microbitfunctions'}
 
-\--- feedback ---
-Well done! `Functions`{:class='microbitfunctions'} were used to tidy up your code and complete a specific task.
+\--- ανατροφοδότηση ---
+Μπράβο! Οι `Συναρτήσεις`{:class='microbitfunctions'} χρησιμοποιήθηκαν για να τακτοποιήσεις τον κώδικά σου και να ολοκληρώσεις μια συγκεκριμένη εργασία.
 \--- /feedback ---
 
 - ( )
 
-`Music`{:class='microbitmusic'}
+`Μουσική`{:class='microbitmusic'}
 
-\--- feedback ---
-`Music`{:class='microbitmusic'} blocks were used in creating responses, but not to tidy up your code.
+\--- ανατροφοδότηση ---
+Τα μπλοκ `Μουσική`{:class='microbitmusic'} χρησιμοποιήθηκαν για τη δημιουργία απαντήσεων, αλλά όχι για να τακτοποιήσουν τον κώδικά σου.
 \--- /feedback ---
 
 \--- /choices ---
