@@ -1,60 +1,60 @@
-## Start-up screen
+## Αρχική οθόνη
 
-You may want your friends and family to share and use your mood checker.
+Μπορεί να θέλεις οι φίλοι/ες και η οικογένειά σου να μοιράζονται και να χρησιμοποιούν τον έλεγχο της διάθεσης που δημιούργησες.
 
-This means you need to create a start-up screen to show some instructions for how to use it.
+Αυτό σημαίνει ότι πρέπει να δημιουργήσεις μια αρχική οθόνη για να εμφανίσεις ορισμένες οδηγίες για τον τρόπο χρήσης.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-  <span style="color: #0faeb0">**User experience**</span> design is an important part of creating a product. It means thinking about ways to make your programs easy to understand and use.
+  <span style="color: #0faeb0">Ο σχεδιασμός της **εμπειρίας χρήστη** </span> είναι σημαντικό μέρος της δημιουργίας ενός προϊόντος. Σημαίνει να σκέφτεσαι τρόπους για να κάνεις τα προγράμματά σου εύκολα στην κατανόηση και τη χρήση.
 </p>
 
-### Choose your theme
+### Επίλεξε το θέμα σου
 
 \--- task ---
 
-Think about when you've come home from school or from an outing and your family or friends have asked how your day went. What responses did you give?
+Σκέψου πότε γύρισες σπίτι από το σχολείο ή από μια έξοδο και η οικογένειά σου ή οι φίλοι σου σε ρώτησαν ρωτήσει πώς πήγε η μέρα σου. Τι απαντήσεις έδωσες;
 
-You might have said:
+Μπορεί να είχες πει:
 
-- I had a good day
-- I had an okay day
-- I didn't have a good day
+- Είχα μια καλή μέρα
+- Είχα μια OK μέρα
+- Δεν είχα μια καλή μέρα
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-  <span style="color: #0faeb0">**Moods**</span> are the way you feel on different days or at different times of the day. Sometimes you might feel really happy, like when you're playing with your favourite toys or spending time with friends. Other times, you might feel a little bit sad or grumpy. Moods can change throughout the day, and it's okay to have different moods.
+  <span style="color: #0faeb0">**Οι διαθέσεις**</span> είναι ο τρόπος που νιώθεις διαφορετικές ημέρες ή διαφορετικές ώρες της ημέρας. Μερικές φορές μπορεί να αισθάνεσαι πραγματικά χαρούμενος/η, όπως όταν παίζεις με τα αγαπημένα σου παιχνίδια ή περνάς χρόνο με φίλους/ες. Άλλες φορές, μπορεί να αισθάνεσαι λίγο λυπημένος/η ή κακόκεφος/η. Οι διαθέσεις μπορούν να αλλάξουν κατά τη διάρκεια της ημέρας και είναι εντάξει να έχεις διαφορετικές διαθέσεις.
 </p>
 
-Based on the mood your user chooses, you can create responses that use:
+Με βάση τη διάθεση που επιλέγει ο χρήστης σου, μπορείς να δημιουργήσεις απαντήσεις που χρησιμοποιούν:
 
-- Text to show the user a message
-- Icons and animations to cheer them up
-- Melodies and sounds for calmness or excitement
+- Κείμενο για εμφάνιση μηνύματος στον χρήστη
+- Εικονίδια και κινούμενα σχέδια για να τους φτιάξουν το κέφι
+- Μελωδίες και ήχοι για ηρεμία ή ενθουσιασμό
 
 \--- /task ---
 
-### Create your project
+### Δημιούργησε το έργο σου
 
 \--- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="\_blank"}.
+Άνοιξε το πρόγραμμα επεξεργασίας MakeCode στη διεύθυνση [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 \--- collapse ---
 
-***
+---
 
-## title: Offline version of the editor
+## title: Εκτός σύνδεσης έκδοση του επεξεργαστή
 
-There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="\_blank"}.
+Υπάρχει επίσης μια [έκδοση του προγράμματος επεξεργασίας MakeCode με δυνατότητα λήψης](https://makecode.microbit.org/offline-app){:target="_blank"}.
 
 \--- /collapse ---
 
 \--- /task ---
 
-Once the editor is open, create a new project and give your project a name.
+Μόλις ανοίξει το πρόγραμμα επεξεργασίας, δημιούργησε ένα νέο έργο και δώσε ένα όνομα στο έργο σου.
 
 \--- task ---
 
-Click on the **New Project** button.
+Κάνε κλικ στο κουμπί **Νέο έργο**.
 
 <img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
 
@@ -62,102 +62,102 @@ Click on the **New Project** button.
 
 \--- task ---
 
-**Tip:** Give your project a helpful name that relates to the program you’re creating. This will make it easier to find if you create other projects on MakeCode.
+**Συμβουλή:** Δώσε στο έργο σου ένα βοηθητικό όνομα που να σχετίζεται με το πρόγραμμα που δημιουργείς. Αυτό θα διευκολύνει την εύρεσή του εάν δημιουργήσεις και άλλα έργα στο MakeCode.
 
 \--- /task ---
 
-### Make your start-up screen
+### Δημιούργησε την αρχική οθόνη
 
-Create a start-up screen that shows your user what your device is for and how to use it.
+Δημιούργησε μια αρχική οθόνη που εμφανίζει στο χρήστη ποιον σκοπό εξυπηρετεί η συσκευή σου και πώς να τη χρησιμοποιεί.
 
-You will make this in the `on start`{:class='microbitbasic'} block of your new project.
+Θα το κάνεις αυτό με το μπλοκ `κατά την έναρξη`{:class='microbitbasic'} του νέου σου έργου.
 
 \--- task ---
 
-Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='microbitbasic'} block. The blocks you choose will depend on what you want your user to see when the program starts.
+Πρόσθεσε μερικά μπλοκ `Βασικά`{:class='microbitbasic'} στο μπλοκ `κατά την έναρξη`{:class='microbitbasic'}. Τα μπλοκ που θα επιλέξεις θα εξαρτηθούν από το τι θέλεις να δει ο χρήστης σου όταν ξεκινά το πρόγραμμα.
 
-You could show an **icon**, make an **animation**, or display **text**.
+Θα μπορούσες να εμφανίσεις ένα **εικονίδιο**, να δημιουργήσεις μια **κινούμενη εικόνα** ή να εμφανίσεις **κείμενο**.
 
-For instance, it could show a heart.
+Για παράδειγμα, θα μπορούσε να εμφανίσει μια καρδιά.
 
 ```microbit
 basic.showIcon(IconNames.Heart)
 ```
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
-If your start-up screen is complicated, you might want to organise the code into a **function**.
+Εάν η αρχική οθόνη είναι περίπλοκη, ίσως να ήταν καλή ιδέα να οργανώσεις τον κώδικα σε μια **συνάρτηση**.
 
-\[\[\[microbit-function]]]
-
-\--- /task ---
-
-\--- task ---
-
-Test your screen, show it to a friend and see if they know what the program does.
-
-\--- /task ---
-
-### Select a mood
-
-Your program should the ask user about their day and let them choose from set options.
-
-\--- task ---
-
-Add instructions to the `on start`{:class='microbitbasic'} block by using `show string`{:class='microbitbasic'}.
-
-The instructions should tell the user how to select each mood.
-
-This will help the user know what gestures to use to input their mood.
-
-\[\[\[microbit-text]]]
-
-Remember: Text on a micro:bit takes a long time to scroll, so keep your text short.
+[[[microbit-function]]]
 
 \--- /task ---
 
 \--- task ---
 
-Add icons to represent each mood.
-
-\[\[\[microbit-icons]]]
+Δοκίμασε την οθόνη σου, δείξε την σε έναν/μια φίλο/η και δες αν καταλαβαίνει τι κάνει το πρόγραμμα.
 
 \--- /task ---
 
-### Choose three moods
+### Επιλογή διάθεσης
+
+Το πρόγραμμά σου θα πρέπει να ρωτήσει τον χρήστη για την ημέρα του και να τον αφήσει να διαλέξει από τις επιλογές που έχουν οριστεί.
 
 \--- task ---
 
-You now need to add gestures for each mood.
-You need to add one gesture each for:
+Πρόσθεσε οδηγίες στο μπλοκ `κατά την έναρξη`{:class='microbitbasic'} χρησιμοποιώντας `εμφάνισε συμβολοσειρά`{:class='microbitbasic'}.
 
-- Good day
-- Okay day
-- Bad day
+Οι οδηγίες πρέπει να λένε στον χρήστη πώς να επιλέξει την κάθε διάθεση.
 
-\[\[\[microbit-gesture-trigger]]]
+Αυτό θα βοηθήσει τον χρήστη να γνωρίζει ποιες χειρονομίες να χρησιμοποιήσει για να εισαγάγει τη διάθεσή του.
 
-\--- /task ---
+[[[microbit-text]]]
 
-### Create a variable
-
-\--- task ---
-
-Create a variable called `mood`.
-
-\[\[\[microbit-create-variables]]]
+Θυμήσου: Το κείμενο σε ένα micro:bit παίρνει πολύ χρόνο για να κυλήσει, οπότε κράτα το κείμενό σου σύντομο.
 
 \--- /task ---
 
 \--- task ---
 
-Add the variable to your `gesture`{:class='microbitinput'} block.
+Πρόσθεσε εικονίδια αντιπροσωπευτικά της κάθε διάθεσης.
 
-Here is an example of the code blocks you could use:
+[[[microbit-icons]]]
+
+\--- /task ---
+
+### Επίλεξε τρεις διαθέσεις
+
+\--- task ---
+
+Τώρα πρέπει να προσθέσεις χειρονομίες για την κάθε διάθεση.
+Πρέπει να προσθέσεις μία χειρονομία για μια:
+
+- Καλή μέρα
+- OK ημέρα
+- Κακή ημέρα
+
+[[[microbit-gesture-trigger]]]
+
+\--- /task ---
+
+### Δημιούργησε μία μεταβλητή
+
+\--- task ---
+
+Δημιούργησε μία νέα μεταβλητή με όνομα 'διάθεση\`.
+
+[[[microbit-create-variables]]]
+
+\--- /task ---
+
+\--- task ---
+
+Πρόσθεσε την μεταβλητή στο μπλοκ `χειρονομίας`{:class='microbitinput'}.
+
+Παρακάτω είναι ένα παράδειγμα του προγράμματος με μπλοκ που θα μπορούσες να φτιάξεις:
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -169,11 +169,11 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-You will also need to use a number to represent each mood.
+Θα χρειαστεί επίσης να χρησιμοποιήσεις έναν αριθμό που θα αντιπροσωπεύει την κάθε διάθεση.
 
-For example, `Good day` could be `1`, `Okay day` could be `2`, and `Bad day` could be `3`.
+Για παράδειγμα, η "Καλή μέρα" θα μπορούσε να είναι "1", η "OK ημέρα" θα μπορούσε να είναι "2" και η "Κακή μέρα" θα μπορούσε να είναι "3".
 
-Change the `0` to `1` in your `set mood`{:class='microbitvariables'} variable to match the correct mood.
+Άλλαξε την μεταβλητή "0" σε "1" στη μεταβλητή "ορισμός διάθεση"{:class='microbitvariables'} για να ταιριάζει με τη σωστή διάθεση.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -185,13 +185,13 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-You could show an **icon** or an **animation** to represent each mood. You could also draw something using `show leds`{:class='microbitbasic'}.
+Θα μπορούσες να εμφανίσεις ένα **εικονίδιο** ή μια **κινούμενη εικόνα** για να απεικονίσεις την κάθε διάθεση. Θα μπορούσες επίσης να σχεδιάσεις κάτι χρησιμοποιώντας το `show leds`{:class='microbitbasic'}.
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
-Your event block should now look something like this (the exact blocks may be different):
+Το μπλοκ συμβάντων θα πρέπει τώρα να μοιάζει κάπως έτσι (τα ακριβή μπλοκ μπορεί να είναι διαφορετικά):
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -210,17 +210,17 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-Repeat these steps twice so you have blocks for each gesture.
+Επανάλαβε αυτά τα βήματα δύο φορές, ώστε να έχεις μπλοκ για κάθε χειρονομία.
 
 \--- /task ---
 
 \--- task ---
 
-In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to set their mood. In our example, we've told them to press `Button A`.
+Στο μπλοκ "χειρονομία"{:class='microbitinput'}, πες στον χρήστη να χρησιμοποιήσει ένα "συμβάν" για να ορίσει τη διάθεσή του. Στο παράδειγμά μας, του είπαμε να πατήσει το κουμπί A.
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
-For a better user experience, add a `pause`{:class='microbitbasic'} and a `clear screen`{:class='microbitbasic'} block between the mood icon and the instruction block.
+Για καλύτερη εμπειρία χρήστη, πρόσθεσε ένα μπλοκ "παύση"{:class='microbitbasic'} και ένα "καθαρισμό οθόνης"{:class='microbitbasic'} μεταξύ του εικονιδίου της διάθεσης και του μπλοκ οδηγιών.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -240,12 +240,12 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- /task ---
 
-### Test your program
+### Δοκίμασε το έργο σου
 
 \--- task ---
 
-When the simulator restarts, check that you're happy with the instructions, icons, and animation for your start-up screen.
+Κατά την επανεκκίνηση του προσομοιωτή, έλεγξε ότι είσαι ευχαριστημένος/η με τις οδηγίες, τα εικονίδια και τα κινούμενα σχέδια για την αρχική σου οθόνη.
 
-Check that when you use a gesture such as a `on tilt right`{:class='microbitinput'} block, the correct mood icon or animation is shown.
+'Ελεγξε ότι όταν χρησιμοποιείς μια χειρονομία όπως ένα μπλοκ `στο κλίση δεξιά`{:class='microbitinput'}, εμφανίζεται το σωστό εικονίδιο ή κινούμενο σχέδιο για τη διάθεση.
 
 \--- /task ---
