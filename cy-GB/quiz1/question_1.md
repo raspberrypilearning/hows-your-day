@@ -8,7 +8,7 @@ Have fun!
 
 \--- question ---
 
-***
+---
 
 ## legend: Question 1 of 3
 
