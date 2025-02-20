@@ -20,9 +20,9 @@ This is an upgraded version of one of the example programs.
 2. When the event button is pressed to set the mood, the mood is also logged
 3. The data from sensor inputs, such as sound, light, and temperature levels, are logged (sound is not available for V1 users). This will allow the user to check what around them might be affecting their mood.
 
-
+</div>
 <div>
 [👀 See the code 👀](https://makecode.microbit.org/_AaPJpHeT0bXP){:target="_blank"}
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_AaPJpHeT0bXP" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></div>
+<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_AaPJpHeT0bXP" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
