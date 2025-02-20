@@ -1,52 +1,52 @@
-## Create more responses
+## Δημιουργία περισσότερων απαντήσεων
 
-For any mood your user has chosen, you can show them something or give them an activity to do.
+Για οποιαδήποτε διάθεση έχει επιλέξει ο χρήστης, μπορείς να τους δείξεις κάτι ή να τους δώσεις μια δραστηριότητα να κάνουν.
 
 \--- task ---
 
-Add more responses to your `on button`{:class='microbitinput'} block for the other response options.
+Πρόσθεσε περισσότερες απαντήσεις στο μπλοκ "όταν πιεστεί το πλήκτρο"{:class='microbitinput'} για τις άλλες επιλογές απάντησης.
 
-Click the `+` button at the bottom of your `if`{:class='microbitlogic'} block to add `else if`{:class='microbitlogic'} blocks.
+Κάνε κλικ στο κουμπί `+` στο κάτω μέρος του μπλοκ `εάν`{:class='microbitlogic'} για να προσθέσεις τα μπλοκ `αλλιώς εάν`{:class='microbitlogic'}.
 
-\[\[\[microbit-making-choices]]]
+[[[microbit-making-choices]]]
 
 \--- /task ---
 
 \--- task ---
 
-Use your micro:bit skills to create more responses.
+Χρησιμοποίησε τις δυνατότητες του micro:bit για να δημιουργήσεις περισσότερες απαντήσεις.
 
-Add them inside the `else if`{:class='microbitlogic'} blocks.
+Πρόσθεσέ τα μέσα στο μπλοκ εάν{:class='microbitlogic'}.
 
-Here are some reminders of things you have already done in the Explore projects that you might want to use.
+Ακολουθούν ορισμένες υπενθυμίσεις για πράγματα που έχεις ήδη κάνει στα έργα Εξερεύνησης που ίσως θέλεις να χρησιμοποιήσεις.
 
-#### Use the LEDs
+#### Χρήση των LED
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
-\[\[\[microbit-plot-graph]]]
+[[[microbit-plot-graph]]]
 
-#### Use sounds
+#### Χρήση ήχων
 
-\[\[\[microbit-playing-sounds]]]
+[[[microbit-playing-sounds]]]
 
-\[\[\[microbit-mic]]]
+[[[microbit-mic]]]
 
-\[\[\[microbit-volume]]]
+[[[microbit-volume]]]
 
-#### Other
+#### Άλλο
 
-\[\[\[microbit-timer]]]
+[[[microbit-timer]]]
 
-\[\[\[microbit-counting]]]
+[[[microbit-counting]]]
 
-Have a look over the projects you have made throughout the path for inspiration for your responses.
+Ρίξε μια ματιά στα έργα που έχεις κάνει σε όλη τη διαδρομή για να πάρεις έμπνευση για τις απαντήσεις σου.
 
-Here is an example of responses you can add:
+Εδώ είναι ένα παράδειγμα των απαντήσεων που μπορείς να προσθέσεις:
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -65,25 +65,25 @@ input.onButtonPressed(Button.A, function () {
 
 \--- /task ---
 
-### Use functions to organise your responses
+### Χρήση συναρτήσεων για να οργανώσεις τις απαντήσεις σου
 
-For each response, you can create a function for the activity that will be shown to your user.
+Για κάθε απάντηση, μπορείς να δημιουργήσεις μια συνάρτηση για τη δραστηριότητα που θα εμφανίζεται στον χρήστη σου.
 
-This will tidy up your code if you have a lot of blocks inside each `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} block.
+Αυτό θα τακτοποιήσει τον κώδικά σου αν έχεις πολλά μπλοκ μέσα σε κάθε μπλοκ `εάν`{:class='microbitlogic'} και `αλλιώς εάν`{:class='microbitlogic'}.
 
-You could create three functions for the three responses your user is shown.
+Θα μπορούσες να δημιουργήσεις τρεις συναρτήσεις για τις τρεις απαντήσεις που εμφανίζονται στον χρήστη σου.
 
 \--- task ---
 
-\[\[\[microbit-function]]]
+[[[microbit-function]]]
 
 \--- /task ---
 
 \--- task ---
 
-Drag your response blocks into your newly created function blocks.
+Σύρε τα μπλοκ απάντησης στα μπλοκ συναρτήσεων που δημιούργησες πρόσφατα.
 
-Here is some example code from a function block:
+Ακολουθεί ένα παράδειγμα κώδικα από ένα μπλοκ συνάρτησης:
 
 ```microbit
 function goodDay () {
@@ -96,37 +96,37 @@ function goodDay () {
 
 \--- /task ---
 
-You will need to call your function inside your event block to use it.
+Θα χρειαστεί να καλέσεις τη συνάρτησή σου μέσα στο μπλοκ συμβάντων για να τηνχρησιμοποιήσεις.
 
 \--- task ---
 
-From the `Advanced` section of the Toolbox, drag out your `call`{:class='microbitfunctions'} blocks from the `Functions`{:class='microbitfunctions'} menu.
+Από την ενότητα "Για προχωρημένους" της Εργαλειοθήκης, σύρε τα μπλοκ "κλήση"{:class='microbitfunctions'} από το μενού "Συναρτήσεις"{:class='microbitfunctions'}.
 
-Ensure you use the correct response call block.
+Βεβαιώσου ότι χρησιμοποιείς το σωστό μπλοκ κλήσης για την απάντηση.
 
-Place these blocks inside the `if`{:class='microbitlogic'} and `else if`{:class='microbitlogic'} blocks in your event.
+Τοποθέτησε αυτά τα μπλοκ μέσα στα μπλοκ `εάν`{:class='microbitlogic'} και `αλλιώς εάν`{:class='microbitlogic'} στο συμβάν σου.
 
 \--- /task ---
 
-### Reset your program
+### Επανεκκίνηση του προγράμματός σου
 
-Once a user has set their mood and completed a response, you can allow them reset the program and start again.
+Μόλις ένας χρήστης ορίσει τη διάθεσή του και ολοκληρωθεί μια απάντηση, μπορείς να τους επιτρέψεις να επανεκκινήσει το πρόγραμμα και να ξεκινήσει ξανά.
 
 \--- task ---
 
-From the `Input`{:class='microbitinput'} menu, drag out an event block you have not yet used in your project.
+Από το μενού "Είσοδος"{:class='microbitinput'}, σύρε ένα μπλοκ συμβάντων που δεν έχεις χρησιμοποιήσει ακόμη στο έργο σου.
 
-Place it in your workspace.
+Τοποθέτησέ το στον χώρο εργασίας σου.
 
 \--- /task ---
 
 \--- task ---
 
-From the `Music`{:class='microbitmusic'} menu, drag out a `stop all sounds`{:class='microbitmusic'} block.
+Από το μενού `Music`{:class='microbitmusic'} σύρε ένα μπλοκ `stop all sounds`{:class='microbitmusic'}.
 
-Place it inside your event block.
+Τοποθέτησέ το μέσα στο μπλοκ συμβάντος.
 
-The `on logo pressed`{:class='microbitinput'} block has been used in this example.
+Το μπλοκ `on logo pressed`{:class='microbitinput'} έχει χρησιμοποιηθεί σε αυτό το παράδειγμα.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -138,9 +138,9 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 \--- task ---
 
-Duplicate your start-up screen blocks or start-up screen function.
+Αντίγραψε τα μπλοκ της αρχικής οθόνης ή τη λειτουργία της αρχικής οθόνης.
 
-Place it below the `stop all sounds`{:class='microbitmusic'} block.
+Τοποθέτησέ το κάτω από το μπλοκ `stop all sounds`{:class='microbitmusic'}.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -151,18 +151,18 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 \--- /task ---
 
-### Test your program
+### Δοκίμασε το έργο σου
 
 \--- task ---
 
-When the simulator restarts, use a gesture to choose your mood.
+Όταν ο προσομοιωτής επανεκκινηθεί, χρησιμοποίησε μια χειρονομία για να επιλέξεις τη διάθεσή σου.
 
-Use your event to trigger your response.
+Χρησιμοποίησε το συμβάν για να ενεργοποιήσεις την απάντησή σου.
 
-Use your other event block to reset the program.
+Χρησιμοποίησε το άλλο μπλοκ συμβάντων για να επανεκκινήσεις το πρόγραμμα.
 
 \--- /task ---
 
-\[\[\[download-to-microbit]]]
+[[[download-to-microbit]]]
 
-Next, it is time to check what you have learnt!
+Στη συνέχεια, ήρθε η ώρα να ελέγξεις τι έχεις μάθει!
