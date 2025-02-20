@@ -1,51 +1,51 @@
-## Quick quiz
+## Γρήγορο κουίζ
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Απάντησε στις τρεις ερωτήσεις. Υπάρχουν υποδείξεις που θα σε οδηγήσουν στη σωστή απάντηση.
 
-When you have answered each question, click on **Check my answer**.
+Όταν έχεις απαντήσει σε κάθε ερώτηση, πάτησε στο \*\* Έλεγξε την απάντησή μου\*\*.
 
-Have fun!
+Καλή διασκέδαση!
 
 \--- question ---
 
-***
+---
 
-## legend: Question 1 of 3
+## legend: Ερώτηση 1 από 3
 
-In your project, you showed your user instructions by using the `Basic`{:class='microbitbasic'} menu. Which block did you use?
+Στο έργο σου, εμφάνισες τις οδηγίες στον χρήστη σου χρησιμοποιώντας το μενού `Βασικά`{:class='microbitbasic'}. Ποιο μπλοκ χρησιμοποίησες;
 
 \--- choices ---
 
 - ( )
 
-`show icon`{:class='microbitbasic'}
+`εμφάνιση εικονιδίου`{:class='microbitbasic'}
 
-\--- feedback ---
-The `show icon`{:class='microbitbasic'} block displays icons to be shown to a user.
+\--- ανατροφοδότηση ---
+Το μπλοκ `εμφάνιση εικονιδίου`{:class='microbitbasic'} εμφανίζει εικονίδια που θα εμφανίζονται σε έναν χρήστη.
 \--- /feedback ---
 
 - ( )
 
 `show leds`{:class='microbitbasic'}
 
-\--- feedback ---
-The `show leds`{:class='microbitbasic'} block allows you to display images and create animations for a user.
+\--- ανατροφοδότηση ---
+Το μπλοκ `show leds`{:class='microbitbasic'} σου επιτρέπει να εμφανίζεις εικόνες και να δημιουργείς κινούμενα σχέδια για έναν χρήστη.
 \--- /feedback ---
 
 - (x)
 
-`show string`{:class='microbitbasic'}
+`εμφάνιση συμβολοσειράς`{:class='microbitbasic'}
 
-\--- feedback ---
-Yes, this is the block used to display a message to your user!
+\--- ανατροφοδότηση---
+Ναι, αυτό είναι το μπλοκ που χρησιμοποιείται για την εμφάνιση ενός μηνύματος στον χρήστη σου!
 \--- /feedback ---
 
 - ( )
 
-`show arrow`{:class='microbitbasic'}
+`εμφάνιση βέλους`{:class='microbitbasic'}
 
-\--- feedback ---
-The `show arrow`{:class='microbitbasic'} block can be used to display arrows to a user.
+\--- ανατροφοδότηση ---
+Το μπλοκ `εμφάνιση βέλους`{:class='microbitbasic'} μπορεί να χρησιμοποιηθεί για να εμφανίσει βέλη σε έναν χρήστη.
 \--- /feedback ---
 
 \--- /choices ---
