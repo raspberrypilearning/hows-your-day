@@ -1,6 +1,6 @@
 \--- question ---
 
-***
+---
 
 ## legend: Vraag 3 van 3
 
