@@ -36,15 +36,15 @@ Based on the mood your user chooses, you can create responses that use:
 
 \--- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="\_blank"}.
+Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 \--- collapse ---
 
-***
+---
 
 ## title: Offline version of the editor
 
-There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="\_blank"}.
+There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="_blank"}.
 
 \--- /collapse ---
 
@@ -84,15 +84,15 @@ For instance, it could show a heart.
 basic.showIcon(IconNames.Heart)
 ```
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
 If your start-up screen is complicated, you might want to organise the code into a **function**.
 
-\[\[\[microbit-function]]]
+[[[microbit-function]]]
 
 \--- /task ---
 
@@ -114,7 +114,7 @@ The instructions should tell the user how to select each mood.
 
 This will help the user know what gestures to use to input their mood.
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
 Remember: Text on a micro:bit takes a long time to scroll, so keep your text short.
 
@@ -124,7 +124,7 @@ Remember: Text on a micro:bit takes a long time to scroll, so keep your text sho
 
 Add icons to represent each mood.
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
 \--- /task ---
 
@@ -139,7 +139,7 @@ You need to add one gesture each for:
 - Okay day
 - Bad day
 
-\[\[\[microbit-gesture-trigger]]]
+[[[microbit-gesture-trigger]]]
 
 \--- /task ---
 
@@ -149,7 +149,7 @@ You need to add one gesture each for:
 
 Create a variable called `mood`.
 
-\[\[\[microbit-create-variables]]]
+[[[microbit-create-variables]]]
 
 \--- /task ---
 
@@ -187,9 +187,9 @@ input.onGesture(Gesture.Shake, function () {
 
 You could show an **icon** or an **animation** to represent each mood. You could also draw something using `show leds`{:class='microbitbasic'}.
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
 Your event block should now look something like this (the exact blocks may be different):
 
@@ -218,7 +218,7 @@ Repeat these steps twice so you have blocks for each gesture.
 
 In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to set their mood. In our example, we've told them to press `Button A`.
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
 For a better user experience, add a `pause`{:class='microbitbasic'} and a `clear screen`{:class='microbitbasic'} block between the mood icon and the instruction block.
 
