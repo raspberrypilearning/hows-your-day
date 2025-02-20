@@ -8,7 +8,7 @@ Voeg meer reacties toe aan je `wanneer knop wordt ingedrukt`{:class='microbitinp
 
 Klik op de `+` knop onderaan je `als`{:class='microbitlogic'} blok om `anders als`{:class='microbitlogic'} blokken toe te voegen.
 
-\[\[\[microbit-making-choices]]]
+[[[microbit-making-choices]]]
 
 \--- /task ---
 
@@ -22,27 +22,27 @@ Misschien herinner je deze dingen die je al gedaan hebt in de Verkennen projecte
 
 #### De LED's gebruiken
 
-\[\[\[microbit-icons]]]
+[[[microbit-icons]]]
 
-\[\[\[microbit-animation]]]
+[[[microbit-animation]]]
 
-\[\[\[microbit-text]]]
+[[[microbit-text]]]
 
-\[\[\[microbit-plot-graph]]]
+[[[microbit-plot-graph]]]
 
 #### Geluid gebruiken
 
-\[\[\[microbit-playing-sounds]]]
+[[[microbit-playing-sounds]]]
 
-\[\[\[microbit-mic]]]
+[[[microbit-mic]]]
 
-\[\[\[microbit-volume]]]
+[[[microbit-volume]]]
 
 #### Overig
 
-\[\[\[microbit-timer]]]
+[[[microbit-timer]]]
 
-\[\[\[microbit-counting]]]
+[[[microbit-counting]]]
 
 Kijk eens naar de projecten die je tijdens het pad al hebt gemaakt, om ideeën op te doen voor je antwoorden.
 
@@ -75,7 +75,7 @@ Je kunt drie functies maken voor de drie antwoorden die je gebruiker te zien kri
 
 \--- task ---
 
-\[\[\[microbit-function]]]
+[[[microbit-function]]]
 
 \--- /task ---
 
@@ -163,6 +163,6 @@ Gebruik je andere gebeurtenis blok om het programma opnieuw in te stellen.
 
 \--- /task ---
 
-\[\[\[download-to-microbit]]]
+[[[download-to-microbit]]]
 
 Nu is het tijd om te kijken wat je hebt geleerd!
