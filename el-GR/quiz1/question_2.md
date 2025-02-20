@@ -1,12 +1,12 @@
 \--- question ---
 
-***
+---
 
-## legend: Question 2 of 3
+## legend: Ερώτηση 2 από 3
 
-In your project you used `Gestures`{:class='microbitinput'} to allow the user to choose their mood.
+Στο έργο σου χρησιμοποίησες τις `Χειρονομίες`{:class='microbitinput'} για να επιτρέψεις στο χρήστη να επιλέξει τη διάθεσή του.
 
-Which of these code blocks would allow a user to choose their mood.
+Ποιο από αυτά τα μπλοκ κώδικα θα επέτρεπε σε έναν χρήστη να επιλέξει τη διάθεσή του.
 
 \--- choices ---
 
@@ -22,7 +22,7 @@ input.onGesture(Gesture.TiltLeft, function () {
 ```
 
 \--- feedback ---
-Awesome! When the user tilts their micro:bit to the left they're able to choose their mood.
+Awesome! Όταν ο χρήστης γέρνει το micro:bit του προς τα αριστερά, μπορεί να επιλέξει τη διάθεσή του.
 \--- /feedback ---
 
 - ( )
@@ -35,8 +35,8 @@ function badDay () {
 }
 ```
 
-\--- feedback ---
-This is a function for your response and will not allow the user choose their mood.
+\--- ανατροφοδότηση ---
+Αυτή είναι μια συνάρτηση για την απάντησή σου και δεν θα επιτρέψει στον χρήστη να επιλέξει τη διάθεσή του.
 \--- /feedback ---
 
 - ( )
@@ -47,8 +47,8 @@ basic.forever(function () {
 })
 ```
 
-\--- feedback ---
-This block of code would help you log data from the sensor inputs on the micro:bit.
+\--- ανατροφοδότηση ---
+Αυτό το μπλοκ κώδικα θα σε βοηθήσει να καταγράψεις δεδομένα από τις εισόδους του αισθητήρα στο micro:bit.
 \--- /feedback ---
 
 - ( )
@@ -59,8 +59,8 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 ```
 
-\--- feedback ---
-This is a gesture block that would clear the screen of the micro:bit but won't let the user choose their mood.
+\--- ανατροφοδότηση ---
+Αυτό είναι ένα μπλοκ χειρονομίας που θα καθαρίσει την οθόνη του micro:bit, αλλά δεν θα αφήσει τον χρήστη να επιλέξει τη διάθεσή του.
 \--- /feedback ---
 
 \--- /choices ---
