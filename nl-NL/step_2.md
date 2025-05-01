@@ -249,3 +249,5 @@ Als de simulator opnieuw opstart, controleer dan of je tevreden bent met de inst
 Controleer of wanneer je een gebaar zoals een `naar rechts kantelen`{:class='microbitinput'} blok gebruikt, het juiste stemmingspictogram of animatie wordt getoond.
 
 \--- /task ---
+
+
