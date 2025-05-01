@@ -249,3 +249,5 @@ When the simulator restarts, check that you're happy with the instructions, icon
 Check that when you use a gesture such as a `on tilt right`{:class='microbitinput'} block, the correct mood icon or animation is shown.
 
 \--- /task ---
+
+
