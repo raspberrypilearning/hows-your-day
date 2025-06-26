@@ -1,21 +1,21 @@
-## Share and play
+## Partager et jouer
 
-If you are in a club, why not share your project with friends?
+Si tu es dans un club, pourquoi ne pas partager ton projet avec des ami·e·s ?
 
-You could also show your family how your project works.
+Tu peux également montrer à ta famille comment fonctionne ton projet.
 
 [[[microbit-share]]]
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-  Being active can boost your <span style="color: #0faeb0">**confidence**</span> and make you feel proud. Every time you learn a new move or finish a game, you prove to yourself what you're capable of. You could say the same about completing a computing project!
+  Être actif peut augmenter ta <span style="color: #0faeb0">**confiance**</span> et te rendre fier·ère. Chaque fois que tu apprends un nouveau mouvement ou que tu termines un jeu, tu peux prouver de quoi tu es capable. On pourrait dire la même chose de la réalisation d’un projet informatique !
 </p>
 
 \--- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspire la communauté Raspberry Pi Foundation avec ton projet !
 
-To submit your project, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} and share your project link with us!
+Pour soumettre ton projet, remplis [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} et partage le lien de ton projet avec nous !
 
-It might be featured on the first page of this project for others to get inspiration from.
+Il pourrait être présenté sur la première page de ce projet pour que d'autres puissent s'en inspirer.
 
 \--- /task ---
