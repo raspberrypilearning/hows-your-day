@@ -19,7 +19,7 @@ Par exemple, dans le karaoké vérificateur d'humeur, les gestes étaient utilis
 
 --- task ---
 
-#### Utiliser les évènements
+### Utiliser les évènements
 
 Ajoute le bloc d'évènement de ton choix dans ton espace de travail.
 
@@ -53,7 +53,7 @@ input.onButtonPressed(Button.A, function () {
 
 --- task ---
 
-Ouvre le menu Logique{:class='microbitlogic'} et choisis le bloc `0 = 0`{:class='microbitlogic'}.
+Ouvre le menu `Logique`{:class='microbitlogic'} et choisis le bloc `0 = 0`{:class='microbitlogic'}.
 
 Place-le à l'intérieur de la partie `vrai`{:class='microbitlogic'} de l'énoncé `si`{:class='microbitlogic'}.
 

@@ -20,7 +20,7 @@ Place-les à l'intérieur des blocs `sinon`{:class='microbitlogic'}.
 
 Voici quelques rappels de ce que tu as déjà fait dans les projets Explorer et que tu pourrais utiliser.
 
-#### Utiliser les LED
+### Utiliser les LED
 
 [[[microbit-icons]]]
 
@@ -30,7 +30,7 @@ Voici quelques rappels de ce que tu as déjà fait dans les projets Explorer et 
 
 [[[microbit-plot-graph]]]
 
-#### Utiliser les sons
+### Utiliser les sons
 
 [[[microbit-playing-sounds]]]
 
@@ -38,7 +38,7 @@ Voici quelques rappels de ce que tu as déjà fait dans les projets Explorer et 
 
 [[[microbit-volume]]]
 
-#### Autre
+### Autre
 
 [[[microbit-timer]]]
 

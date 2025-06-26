@@ -246,7 +246,7 @@ input.onGesture(Gesture.Shake, function () {
 
 Lorsque le simulateur redémarre, vérifie que tu es satisfait·e des instructions, des icônes et de l'animation de ton écran de démarrage.
 
-Vérifie que lorsque tu utilises un geste tel qu'un bloc `lorsque incliner à droite` {:class='microbitinput'}, l'icône d'humeur ou l'animation correcte s'affiche.
+Vérifie que lorsque tu utilises un geste tel qu'un bloc `lorsque incliner à droite`{:class='microbitinput'}, l'icône d'humeur ou l'animation correcte s'affiche.
 
 --- /task ---
 

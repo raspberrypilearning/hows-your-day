@@ -21,7 +21,7 @@ For example, in the karaoke mood checker, gestures were used to choose from a ra
 --- task ---
 
 
-#### Using events
+### Using events
 
 Add any event block of your choice into your workspace.
 

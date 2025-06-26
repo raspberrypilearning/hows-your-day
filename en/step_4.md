@@ -20,7 +20,7 @@ Add them inside the `else if`{:class='microbitlogic'} blocks.
 
 Here are some reminders of things you have already done in the Explore projects that you might want to use.
 
-#### Use the LEDs
+### Use the LEDs
 
 [[[microbit-icons]]]
 
@@ -30,7 +30,7 @@ Here are some reminders of things you have already done in the Explore projects 
 
 [[[microbit-plot-graph]]]
 
-#### Use sounds
+### Use sounds
 
 [[[microbit-playing-sounds]]]
 
@@ -38,7 +38,7 @@ Here are some reminders of things you have already done in the Explore projects 
 
 [[[microbit-volume]]]
 
-#### Other
+### Other
 
 [[[microbit-timer]]]
 
