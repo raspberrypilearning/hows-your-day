@@ -1,60 +1,60 @@
-## Start-up screen
+## Page d'accueil
 
-You may want your friends and family to share and use your mood checker.
+Tu aimerais peut-être que tes ami·e·s et ta famille partagent et utilisent ton vérificateur d'humeur.
 
-This means you need to create a start-up screen to show some instructions for how to use it.
+Cela signifie que tu dois créer une page d'accueil pour afficher quelques instructions concernant la méthode d'utilisation.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-  <span style="color: #0faeb0">**User experience**</span> design is an important part of creating a product. It means thinking about ways to make your programs easy to understand and use.
+  Le design de <span style="color: #0faeb0">**l'expérience utilisateur·trice**</span> est un élément important lors de la création d'un produit. Cela signifie qu'il faut réfléchir aux moyens de rendre tes programmes faciles à comprendre et à utiliser.
 </p>
 
-### Choose your theme
+### Choisir ton thème
 
 \--- task ---
 
-Think about when you've come home from school or from an outing and your family or friends have asked how your day went. What responses did you give?
+Pense aux moments où tu rentres de l'école ou d'une sortie et où ta famille ou tes ami·e·s te demandent comment s'est passée ta journée. Quelles réponses as-tu données ?
 
-You might have said:
+Tu aurais pu dire :
 
-- I had a good day
-- I had an okay day
-- I didn't have a good day
+- J'ai passé une bonne journée
+- J'ai passé une journée passable
+- Je n'ai pas passé une bonne journée
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-  <span style="color: #0faeb0">**Moods**</span> are the way you feel on different days or at different times of the day. Sometimes you might feel really happy, like when you're playing with your favourite toys or spending time with friends. Other times, you might feel a little bit sad or grumpy. Moods can change throughout the day, and it's okay to have different moods.
+  <span style="color: #0faeb0">**Les humeurs**</span> sont la façon dont tu te sens selon les jours ou les moments de la journée. Parfois tu peux te sentir très heureux, par exemple, lorsque tu joues avec tes jouets préférés ou que tu passes du temps avec tes ami·e·s. À d'autres moments, tu te sens peut-être un peu triste ou grognon. Les humeurs peuvent changer au cours de la journée, et c'est normal d'avoir des humeurs différentes.
 </p>
 
-Based on the mood your user chooses, you can create responses that use:
+En fonction de l'humeur choisie par ton utilisateur·trice, tu peux créer des réponses qui utilisent :
 
-- Text to show the user a message
-- Icons and animations to cheer them up
-- Melodies and sounds for calmness or excitement
+- Du texte pour afficher un message à l'utilisateur·trice
+- Des icônes et des animations pour lui remonter le moral
+- Des mélodies et des sons pour le calme ou l'excitation
 
 \--- /task ---
 
-### Create your project
+### Créer ton projet
 
 \--- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
+Ouvre l'éditeur MakeCode sur [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 \--- collapse ---
 
 ---
 
-## title: Offline version of the editor
+## title: Version hors ligne de l'éditeur
 
-There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="_blank"}.
+Il existe également une [version téléchargeable de l'éditeur MakeCode](https://makecode.microbit.org/offline-app){:target="_blank"}.
 
 \--- /collapse ---
 
 \--- /task ---
 
-Once the editor is open, create a new project and give your project a name.
+Une fois que l'éditeur est ouvert, crée un nouveau projet et donne un nom à ton projet.
 
 \--- task ---
 
-Click on the **New Project** button.
+Clique sur le bouton **Nouveau projet**.
 
 <img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
 
@@ -62,23 +62,23 @@ Click on the **New Project** button.
 
 \--- task ---
 
-**Tip:** Give your project a helpful name that relates to the program you’re creating. This will make it easier to find if you create other projects on MakeCode.
+**Astuce  :** Donne à ton projet un nom pratique en rapport avec le programme que tu crées. Cela permettra de le retrouver plus facilement si tu crées d'autres projets sur MakeCode.
 
 \--- /task ---
 
-### Make your start-up screen
+### Créer ton écran de démarrage
 
-Create a start-up screen that shows your user what your device is for and how to use it.
+Créer un écran de démarrage qui montre à ton utilisateur·trice à quoi sert ton appareil et comment l'utiliser.
 
-You will make this in the `on start`{:class='microbitbasic'} block of your new project.
+Tu le feras dans le bloc `au démarrage`{:class='microbitbasic'} de ton nouveau projet.
 
 \--- task ---
 
-Add some `Basic`{:class='microbitbasic'} blocks to your `on start`{:class='microbitbasic'} block. The blocks you choose will depend on what you want your user to see when the program starts.
+Ajoute quelques blocs `Base`{:class='microbitbasic'} à ton bloc `au démarrage`{:class='microbitbasic'}. Les blocs que tu choisis dépendent de ce que tu souhaites que ton utilisateur·trice voie au démarrage du programme.
 
-You could show an **icon**, make an **animation**, or display **text**.
+Tu peux afficher un **icône**, faire une **animation** ou afficher un **texte**.
 
-For instance, it could show a heart.
+Par exemple, il pourrait afficher un coeur.
 
 ```microbit
 basic.showIcon(IconNames.Heart)
@@ -90,7 +90,7 @@ basic.showIcon(IconNames.Heart)
 
 [[[microbit-text]]]
 
-If your start-up screen is complicated, you might want to organise the code into a **function**.
+Si ton écran de démarrage est compliqué, tu peux organiser le code dans une **fonction**.
 
 [[[microbit-function]]]
 
@@ -98,56 +98,56 @@ If your start-up screen is complicated, you might want to organise the code into
 
 \--- task ---
 
-Test your screen, show it to a friend and see if they know what the program does.
+Teste ton écran, montre-le à un·e ami·e et voit s'il ou elle a compris ce que fait le programme.
 
 \--- /task ---
 
-### Select a mood
+### Sélectionne une humeur
 
-Your program should the ask user about their day and let them choose from set options.
+Ton programme devrait demander à l'utilisateur·trice comment s'est passé sa journée et le ou la laisser choisir parmi des options définies.
 
 \--- task ---
 
-Add instructions to the `on start`{:class='microbitbasic'} block by using `show string`{:class='microbitbasic'}.
+Ajoute des instructions au bloc `au démarrage`{:class='microbitbasic'} en utilisant `afficher texte`{:class='microbitbasic'}.
 
-The instructions should tell the user how to select each mood.
+Les instructions doivent indiquer à l'utilisateur·trice comment sélectionner chaque humeur.
 
-This will help the user know what gestures to use to input their mood.
+Cela aidera l'utilisateur·trice à savoir quels gestes utiliser pour exprimer son humeur.
 
 [[[microbit-text]]]
 
-Remember: Text on a micro:bit takes a long time to scroll, so keep your text short.
+N'oublie pas : le texte sur un micro:bit prend beaucoup de temps à défiler, alors garde ton texte court.
 
 \--- /task ---
 
 \--- task ---
 
-Add icons to represent each mood.
+Ajoute des icônes pour représenter chaque humeur.
 
 [[[microbit-icons]]]
 
 \--- /task ---
 
-### Choose three moods
+### Choisir trois humeurs
 
 \--- task ---
 
-You now need to add gestures for each mood.
-You need to add one gesture each for:
+Tu dois maintenant ajouter des gestes pour chaque humeur.
+Tu dois ajouter un geste pour :
 
-- Good day
-- Okay day
-- Bad day
+- Bonne journée
+- Journée passable
+- Mauvaise journée
 
 [[[microbit-gesture-trigger]]]
 
 \--- /task ---
 
-### Create a variable
+### Créer une variable
 
 \--- task ---
 
-Create a variable called `mood`.
+Crée une nouvelle variable appelée « humeur ».
 
 [[[microbit-create-variables]]]
 
@@ -155,9 +155,9 @@ Create a variable called `mood`.
 
 \--- task ---
 
-Add the variable to your `gesture`{:class='microbitinput'} block.
+Ajoute la variable à ton bloc `geste`{:class='microbitinput'}.
 
-Here is an example of the code blocks you could use:
+Voici un exemple de blocs de code que tu pourrais utiliser :
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -169,11 +169,11 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-You will also need to use a number to represent each mood.
+Tu auras aussi besoin d'utiliser un nombre pour représenter chaque humeur.
 
-For example, `Good day` could be `1`, `Okay day` could be `2`, and `Bad day` could be `3`.
+Par exemple, `Bonne journée` pourrait être `1`, `Journée passable` pourrait être `2`, et `Mauvaise journée` pourrait être `3`.
 
-Change the `0` to `1` in your `set mood`{:class='microbitvariables'} variable to match the correct mood.
+Change le `0` en `1` dans ta variable `définir humeur`{:class='microbitvariables'} pour correspondre à la bonne humeur.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -185,13 +185,13 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-You could show an **icon** or an **animation** to represent each mood. You could also draw something using `show leds`{:class='microbitbasic'}.
+Tu peux afficher une **icône** ou une **animation** pour représenter chaque humeur. Tu peux également dessiner quelque chose en utilisant `montrer LEDs`{:class='microbitbasic'}.
 
 [[[microbit-icons]]]
 
 [[[microbit-animation]]]
 
-Your event block should now look something like this (the exact blocks may be different):
+Votre bloc évènement devrait maintenant ressembler à ça (les blocs exacts pourraient être un peu différents) :
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -210,17 +210,17 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- task ---
 
-Repeat these steps twice so you have blocks for each gesture.
+Répète ces étapes deux fois pour avoir des blocs pour chaque geste.
 
 \--- /task ---
 
 \--- task ---
 
-In your `gesture`{:class='microbitinput'} block, tell the user to use an `event` to set their mood. In our example, we've told them to press `Button A`.
+Dans ton bloc `geste`{:class='microbitinput'}, dis à l'utilisateur·trice d'utiliser un `évènement` pour définir son humeur. Dans notre exemple, on lui a dit d'appuyer sur le `Bouton A`.
 
 [[[microbit-text]]]
 
-For a better user experience, add a `pause`{:class='microbitbasic'} and a `clear screen`{:class='microbitbasic'} block between the mood icon and the instruction block.
+Pour une meilleure expérience utilisateur·trice, ajoute un bloc `pause`{:class='microbitbasic'} et un bloc `effacer l'écran`{:class='microbitbasic'} entre l'icône d'humeur et le bloc d'instructions.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -240,13 +240,13 @@ input.onGesture(Gesture.Shake, function () {
 
 \--- /task ---
 
-### Test your program
+### Tester ton programme
 
 \--- task ---
 
-When the simulator restarts, check that you're happy with the instructions, icons, and animation for your start-up screen.
+Lorsque le simulateur redémarre, vérifie que tu es satisfait·e des instructions, des icônes et de l'animation de ton écran de démarrage.
 
-Check that when you use a gesture such as a `on tilt right`{:class='microbitinput'} block, the correct mood icon or animation is shown.
+Vérifie que lorsque tu utilises un geste tel qu'un bloc `lorsque incliner à droite` {:class='microbitinput'}, l'icône d'humeur ou l'animation correcte s'affiche.
 
 \--- /task ---
 
