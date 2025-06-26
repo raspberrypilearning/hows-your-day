@@ -2,34 +2,34 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Question 3 sur 3
 
-In your project you used these blocks from the Advanced menu to tidy up your blocks of code. You also had to call them. What are these blocks called?
+Dans ton projet, tu as utilisé ces blocs du menu Avancé pour organiser tes blocs de code. Tu as aussi dû leur donner un nom. Comment s'appellent ces blocs ?
 
 \--- choices ---
 
 - ( )
 
-`Input`{:class='microbitinput'}
+`Entrée`{:class='microbitinput'}
 
 \--- feedback ---
-The gesture blocks from the `Input`{:class='microbitinput'} menu were used to choose the mood. Event blocks were also used to set the moood.
+Les blocs de gestes du menu `Entrée`{:class='microbitinput'} ont été utilisés pour choisir l'humeur. Des blocs d'événements ont également été utilisés pour définir l'humeur.
 \--- /feedback ---
 
 - (x)
 
-`Functions`{:class='microbitfunctions'}
+`Fonctions`{:class='microbitfunctions'}
 
 \--- feedback ---
-Well done! `Functions`{:class='microbitfunctions'} were used to tidy up your code and complete a specific task.
+Bien joué ! Les `fonctions`{:class='microbitfunctions'} ont été utilisées pour mettre de l'ordre dans ton code et effectuer une tâche spécifique.
 \--- /feedback ---
 
 - ( )
 
-`Music`{:class='microbitmusic'}
+`Musique`{:class='microbitmusic'}
 
 \--- feedback ---
-`Music`{:class='microbitmusic'} blocks were used in creating responses, but not to tidy up your code.
+Les blocs `Musique`{:class='microbitmusic'} ont été utilisés pour créer des réponses, mais pas pour mettre de l'ordre dans ton code.
 \--- /feedback ---
 
 \--- /choices ---
