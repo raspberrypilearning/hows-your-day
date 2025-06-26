@@ -1,45 +1,45 @@
-## Create a response
+## Créer une réponse
 
-Well done, you have created the moods for your user to choose from.
-You will now use an event to trigger a response.
+Bien joué, tu as créé des humeurs parmi lesquelles ton utilisateur·trice peut choisir.
+Tu vas maintenant utiliser un événement pour déclencher une réponse.
 
-### Set your mood
+### Régler ton humeur
 
 \--- collapse ---
 
 ---
 
-## title: Why use events?
+## title: Pourquoi utiliser des événements ?
 
-Events are a good choice if you want your user to interact with the program.
+Les évènements sont une bonne option si tu souhaites que l'utilisateur·trice interagisse avec le programme.
 
-For example, in the karaoke mood checker, gestures were used to choose from a range of moods, and then the user pressed Button A to set their choice.
+Par exemple, dans le karaoké vérificateur d'humeur, les gestes étaient utilisés pour choisir parmi un ensemble d'humeurs, puis l'utilisateur·trice appuyait sur le Bouton A pour définir son choix.
 
 \--- /collapse ---
 
 \--- task ---
 
-#### Using events
+#### Utiliser les évènements
 
-Add any event block of your choice into your workspace.
+Ajoute le bloc d'évènement de ton choix dans ton espace de travail.
 
 [[[microbit-buttons]]]
 
-For example, in the mood animator, the `on logo pressed`{:class='microbitinput'} block is used.
+Par exemple, dans l'animateur d'humeur, le bloc `sur le logo appuyé`{:class='microbitinput'} est utilisé.
 
 \--- /task ---
 
-### Create your first response
+### Créer ta première réponse
 
-Now you have chosen an event block, you need to program a response inside it.
+Maintenant que tu as choisi un bloc d'évènement, tu as besoin de programmer une réponse à l'intérieur de celui-ci.
 
 \--- task ---
 
-Drag an `if`{:class='microbitlogic'} block from the `Logic`{:class='microbitlogic'} menu.
+Fais glisser un bloc `si`{:class='microbitlogic'} depuis le menu `Logique`{:class='microbitlogic'}.
 
-Place it inside your event block.
+Mets-le à l'intérieur de ton bloc d'évènement.
 
-In this example, the `on button`{:class='microbitinput'} block has been used.
+Dans cet exemple, le bloc `lorsque le bouton`{:class='microbitinput'} a été utilisé.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -53,23 +53,23 @@ input.onButtonPressed(Button.A, function () {
 
 \--- task ---
 
-Open the `Logic`{:class='microbitlogic'} menu and get the `0 = 0`{:class='microbitlogic'} block.
+Ouvre le menu Logique{:class='microbitlogic'} et choisis le bloc `0 = 0`{:class='microbitlogic'}.
 
-Place it inside the `true`{:class='microbitlogic'} part of the `if`{:class='microbitlogic'} statement.
-
-\--- /task ---
-
-\--- task ---
-
-Drag your `mood`{:class='microbitvariables'} variable block and place it inside the `0` on the left of the `0 = 0`{:class='microbitlogic'} block.
+Place-le à l'intérieur de la partie `vrai`{:class='microbitlogic'} de l'énoncé `si`{:class='microbitlogic'}.
 
 \--- /task ---
 
 \--- task ---
 
-Change the `0` on the right of the `0 = 0`{:class='microbitlogic'} block to `1`.
+Fais glisser ton bloc de variables `humeur`{:class='microbitvariables'} et place-le à l'intérieur du `0` à gauche du bloc `0 = 0`{:class='microbitlogic'}.
 
-Your blocks of code could look like this:
+\--- /task ---
+
+\--- task ---
+
+Remplace le `0` à droite du bloc `0 = 0`{:class='microbitlogic'} par `1`.
+
+Tes blocs de code pourraient ressembler à ceci :
 
 ```microbit
 input.onButtonPressed(Button.AB, function () {
@@ -83,9 +83,9 @@ input.onButtonPressed(Button.AB, function () {
 
 \--- task ---
 
-Add a response block inside the `if`{:class='microbitlogic'} block.
+Ajoute un bloc de réponse à l'intérieur du bloc `si`{:class='microbitlogic'}.
 
-You can show an icon or an animation or play some music.
+Tu peux afficher une icône, une animation ou jouer de la musique.
 
 [[[microbit-icons]]]
 [[[microbit-animation]]]
@@ -93,12 +93,12 @@ You can show an icon or an animation or play some music.
 
 \--- /task ---
 
-### Test your program
+### Teste ton programme
 
 \--- task ---
 
-When the simulator restarts, use a gesture to choose your mood.
+Lorsque le simulateur redémarre, utilise un geste pour choisir ton humeur.
 
-Use your event to trigger your response.
+Utilise ton événement pour déclencher ta réponse.
 
 \--- /task ---
