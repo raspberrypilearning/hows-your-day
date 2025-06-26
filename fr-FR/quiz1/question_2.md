@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Question 2 sur 3
 
-In your project you used `Gestures`{:class='microbitinput'} to allow the user to choose their mood.
+Dans ton projet, tu as utilisé `Gestes`{:class='microbitinput'} pour permettre à l'utilisateur·rice de choisir son humeur.
 
-Which of these code blocks would allow a user to choose their mood.
+Lequel de ces blocs de code permettrait à un utilisateur de choisir son humeur.
 
 \--- choices ---
 
@@ -22,7 +22,7 @@ input.onGesture(Gesture.TiltLeft, function () {
 ```
 
 \--- feedback ---
-Awesome! When the user tilts their micro:bit to the left they're able to choose their mood.
+Awesome! Lorsque l'utilisateur·rice incline son micro:bit vers la gauche, il peut choisir son humeur.
 \--- /feedback ---
 
 - ( )
@@ -36,7 +36,7 @@ function badDay () {
 ```
 
 \--- feedback ---
-This is a function for your response and will not allow the user choose their mood.
+Ceci est une fonction pour ta réponse et ne permettra pas à l'utilisateur·trice de choisir son humeur.
 \--- /feedback ---
 
 - ( )
@@ -48,7 +48,7 @@ basic.forever(function () {
 ```
 
 \--- feedback ---
-This block of code would help you log data from the sensor inputs on the micro:bit.
+Ce bloc de code t'aidera à enregistrer les données provenant des entrées des capteurs sur le micro:bit.
 \--- /feedback ---
 
 - ( )
@@ -60,7 +60,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 ```
 
 \--- feedback ---
-This is a gesture block that would clear the screen of the micro:bit but won't let the user choose their mood.
+Il s'agit d'un bloc gestuel qui effacerait le contenu de l'écran du micro:bit mais ne permettrait pas à l'utilisateur de choisir son humeur.
 \--- /feedback ---
 
 \--- /choices ---
