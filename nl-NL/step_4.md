@@ -20,7 +20,7 @@ Voeg ze toe in de `anders als`{:class='microbitlogic'} blokken.
 
 Misschien herinner je deze dingen die je al gedaan hebt in de Verkennen projecten, die je misschien wilt gebruiken.
 
-#### De LED's gebruiken
+### De LED's gebruiken
 
 [[[microbit-icons]]]
 
@@ -30,7 +30,7 @@ Misschien herinner je deze dingen die je al gedaan hebt in de Verkennen projecte
 
 [[[microbit-plot-graph]]]
 
-#### Geluid gebruiken
+### Geluid gebruiken
 
 [[[microbit-playing-sounds]]]
 
@@ -38,7 +38,7 @@ Misschien herinner je deze dingen die je al gedaan hebt in de Verkennen projecte
 
 [[[microbit-volume]]]
 
-#### Overig
+### Overig
 
 [[[microbit-timer]]]
 

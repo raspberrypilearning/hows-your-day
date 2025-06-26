@@ -19,7 +19,7 @@ Bijvoorbeeld in de karaoke stemmingschecker werden gebaren gebruikt om te kiezen
 
 --- task ---
 
-#### Het gebruik van gebeurtenissen
+### Het gebruik van gebeurtenissen
 
 Kies de blokken van de gebeurtenissen en voeg ze toe aan je bewerkingspaneel.
 

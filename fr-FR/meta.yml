@@ -1,0 +1,28 @@
+---
+title: Comment s'est passée ta journée ?
+hero_image: images/banner.png
+description: Crée un programme de vérification de l’humeur qui affiche une réponse différente en fonction de la façon dont s’est déroulée ta journée.
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Introduction
+  - title: Page d'accueil
+    completion:
+      - engaged
+  - title: Créér une réponse
+  - title: Créer plus de réponses
+    completion:
+      - internal
+  - title: Réflexion
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Améliorer ton projet
+  - title: Partager
+  - title: Et ensuite ?
