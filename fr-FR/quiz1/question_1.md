@@ -1,51 +1,51 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Question 1 sur 3
 
-In your project, you showed your user instructions by using the `Basic`{:class='microbitbasic'} menu. Which block did you use?
+Dans ce projet, tu as donné à ton utilisateur·trice des instructions en utilisant le menu `Base`{:class='microbitbasic'}. Quel bloc as-tu utilisé ?
 
 \--- choices ---
 
 - ( )
 
-`show icon`{:class='microbitbasic'}
+`montrer l'icône`{:class='microbitbasic'}
 
 \--- feedback ---
-The `show icon`{:class='microbitbasic'} block displays icons to be shown to a user.
+Le bloc `montrer l'icône`{:class='microbitbasic'} affiche les icônes à montrer à un·e utilisateur·rice.
 \--- /feedback ---
 
 - ( )
 
-`show leds`{:class='microbitbasic'}
+`montrer LEDs`{:class='microbitbasic'}
 
 \--- feedback ---
-The `show leds`{:class='microbitbasic'} block allows you to display images and create animations for a user.
+Le bloc `montrer Leds`{:class='microbitbasic'} te permet d'afficher des images et de créer des animations pour un·e utilisateur·rice.
 \--- /feedback ---
 
 - (x)
 
-`show string`{:class='microbitbasic'}
+`afficher texte`{:class='microbitbasic'}
 
 \--- feedback ---
-Yes, this is the block used to display a message to your user!
+Oui, c'est le bloc utilisé pour afficher un message à ton utilisateur·trice !
 \--- /feedback ---
 
 - ( )
 
-`show arrow`{:class='microbitbasic'}
+`montrer la flèche`{:class='microbitbasic'}
 
 \--- feedback ---
-The `show arrow`{:class='microbitbasic'} block can be used to display arrows to a user.
+Le bloc `montrer la flèche`{:class='microbitbasic'} peut être utilisé pour afficher des flèches à un·e utilisateur·rice.
 \--- /feedback ---
 
 \--- /choices ---
