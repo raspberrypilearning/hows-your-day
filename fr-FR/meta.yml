@@ -1,7 +1,7 @@
 ---
-title: How's your day?
+title: Comment s'est passée ta journée ?
 hero_image: images/banner.png
-description: Build a mood checker program that shows a different response based on how your day was.
+description: Crée un programme de vérification de l’humeur qui affiche une réponse différente en fonction de la façon dont s’est déroulée ta journée.
 version: 4
 listed: true
 copyedit: true
@@ -10,27 +10,27 @@ steps:
   - 
     title: Introduction
   - 
-    title: Start-up screen
+    title: Page d'accueil
     completion:
-      - engaged
+      - engagé
   - 
-    title: Create a response
+    title: Créér une réponse
   - 
-    title: Create more responses
+    title: Créer plus de réponses
     completion:
-      - internal
+      - interne
   - 
-    title: Reflection
+    title: Réflexion
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - external
+      - externe
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: Share
+    title: Partager
   - 
-    title: What next?
+    title: Et ensuite ?
