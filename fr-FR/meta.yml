@@ -12,13 +12,13 @@ steps:
   - 
     title: Page d'accueil
     completion:
-      - engagé
+      - engaged
   - 
     title: Créér une réponse
   - 
     title: Créer plus de réponses
     completion:
-      - interne
+      - internal
   - 
     title: Réflexion
     knowledge_quiz:
@@ -27,7 +27,7 @@ steps:
       questions: 3
       passing_score: 3
     completion:
-      - externe
+      - external
   - 
     title: Améliorer ton projet
   - 
